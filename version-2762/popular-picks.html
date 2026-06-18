@@ -1,0 +1,2893 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>热门推荐-电影大全</title>
+    <meta name="description" content="围绕热度、题材和看点整理的高关注影片。">
+    <meta name="keywords" content="热门推荐,电影大全,高清影片,在线观影">
+    <link rel="stylesheet" href="./assets/site.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="电影大全">
+            <span class="brand-mark">▶</span>
+            <span class="brand-text">电影大全</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a><a class="nav-link active" href="./categories.html">分类</a><a class="nav-link" href="./rankings.html">排行榜</a><a class="nav-link" href="./search.html">搜索</a><a class="nav-link" href="./support.html">服务支持</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航">
+        <a class="mobile-nav-link" href="./index.html">首页</a><a class="mobile-nav-link" href="./categories.html">分类</a><a class="mobile-nav-link" href="./rankings.html">排行榜</a><a class="mobile-nav-link" href="./search.html">搜索</a><a class="mobile-nav-link" href="./support.html">服务支持</a>
+    </nav>
+</header>
+<main class="page-shell">
+    <nav class="breadcrumb"><a href="./index.html">首页</a><span>/</span><a href="./categories.html">分类</a><span>/</span><strong>热门推荐</strong></nav>
+    <section class="page-hero compact-hero">
+        <span class="eyebrow">热门推荐</span>
+        <h1>热门推荐</h1>
+        <p>围绕热度、题材和看点整理的高关注影片。</p>
+    </section>
+    <section class="filter-panel" aria-label="搜索筛选">
+    <div class="filter-grid">
+        <label>
+            <span>搜索影片</span>
+            <input id="movieSearch" type="search" placeholder="输入片名、标签、简介关键词">
+        </label>
+        <label>
+            <span>地区</span>
+            <select id="regionFilter">
+                <option value="">全部地区</option>
+                <option value="不丹 / 中国台湾">不丹 / 中国台湾</option><option value="中东 / 美国合拍">中东 / 美国合拍</option><option value="中国">中国</option><option value="中国 / 缅甸">中国 / 缅甸</option><option value="中国 / 美国">中国 / 美国</option><option value="中国内地">中国内地</option><option value="中国台湾">中国台湾</option><option value="中国台湾 / 日本">中国台湾 / 日本</option><option value="中国台湾 / 美国">中国台湾 / 美国</option><option value="中国大陆">中国大陆</option><option value="中国大陆 / 中国台湾">中国大陆 / 中国台湾</option><option value="中国大陆 / 俄罗斯">中国大陆 / 俄罗斯</option><option value="中国大陆 / 台湾">中国大陆 / 台湾</option><option value="中国大陆/中国香港">中国大陆/中国香港</option><option value="中国大陆/香港">中国大陆/香港</option><option value="中国香港">中国香港</option><option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option><option value="中国香港 / 内地">中国香港 / 内地</option><option value="中国香港 / 台湾">中国香港 / 台湾</option><option value="中国香港 / 英国">中国香港 / 英国</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国香港/新加坡">中国香港/新加坡</option><option value="丹麦">丹麦</option><option value="丹麦 / 瑞典">丹麦 / 瑞典</option><option value="乌克兰">乌克兰</option><option value="亚美尼亚 / 俄罗斯">亚美尼亚 / 俄罗斯</option><option value="以色列 / 巴勒斯坦">以色列 / 巴勒斯坦</option><option value="伊朗 / 法国">伊朗 / 法国</option><option value="俄罗斯">俄罗斯</option><option value="加拿大">加拿大</option><option value="加拿大 / 挪威">加拿大 / 挪威</option><option value="加拿大 / 爱尔兰">加拿大 / 爱尔兰</option><option value="加拿大 / 美国">加拿大 / 美国</option><option value="匈牙利 / 美国">匈牙利 / 美国</option><option value="南非">南非</option><option value="印度">印度</option><option value="印度 / 英国">印度 / 英国</option><option value="印度尼西亚">印度尼西亚</option><option value="台湾">台湾</option><option value="哥伦比亚 / 美国">哥伦比亚 / 美国</option><option value="哥伦比亚, 美国">哥伦比亚, 美国</option><option value="土耳其">土耳其</option><option value="土耳其 / 德国">土耳其 / 德国</option><option value="墨西哥">墨西哥</option><option value="墨西哥 / 美国">墨西哥 / 美国</option><option value="大陆">大陆</option><option value="奥地利 / 德国">奥地利 / 德国</option><option value="巴勒斯坦">巴勒斯坦</option><option value="巴西">巴西</option><option value="希腊 / 加拿大">希腊 / 加拿大</option><option value="希腊 / 法国">希腊 / 法国</option><option value="德国">德国</option><option value="德国 / 波兰">德国 / 波兰</option><option value="德国 / 美国">德国 / 美国</option><option value="德国/瑞士">德国/瑞士</option><option value="意大利">意大利</option><option value="意大利 / 法国">意大利 / 法国</option><option value="意大利 / 美国">意大利 / 美国</option><option value="意大利, 美国">意大利, 美国</option><option value="意大利/法国">意大利/法国</option><option value="挪威">挪威</option><option value="挪威 / 中国">挪威 / 中国</option><option value="挪威 / 瑞典">挪威 / 瑞典</option><option value="捷克">捷克</option><option value="捷克 / 斯洛伐克">捷克 / 斯洛伐克</option><option value="新西兰">新西兰</option><option value="新西兰 / 澳大利亚">新西兰 / 澳大利亚</option><option value="日本">日本</option><option value="日本 / 国际合制">日本 / 国际合制</option><option value="日本 / 美国">日本 / 美国</option><option value="比利时">比利时</option><option value="比利时 / 法国">比利时 / 法国</option><option value="法国">法国</option><option value="法国 / 中国大陆">法国 / 中国大陆</option><option value="法国 / 以色列">法国 / 以色列</option><option value="法国 / 加拿大">法国 / 加拿大</option><option value="法国 / 塞内加尔">法国 / 塞内加尔</option><option value="法国 / 德国">法国 / 德国</option><option value="法国 / 意大利">法国 / 意大利</option><option value="法国 / 摩洛哥">法国 / 摩洛哥</option>
+            </select>
+        </label>
+        <label>
+            <span>类型</span>
+            <select id="typeFilter">
+                <option value="">全部类型</option>
+                <option value="Movie">Movie</option><option value="OVA">OVA</option><option value="TV Series">TV Series</option><option value="TV Special">TV Special</option><option value="TV 剧集">TV 剧集</option><option value="TV剧集">TV剧集</option><option value="TV动画剧集">TV动画剧集</option><option value="TV系列剧">TV系列剧</option><option value="伦理家庭剧">伦理家庭剧</option><option value="剧场电影">剧场电影</option><option value="剧情">剧情</option><option value="剧情片">剧情片</option><option value="剧情电影">剧情电影</option><option value="剧集">剧集</option><option value="剧集 (8集)">剧集 (8集)</option><option value="剧集 (布袋戏)">剧集 (布袋戏)</option><option value="剧集 / 动画">剧集 / 动画</option><option value="剧集特别篇">剧集特别篇</option><option value="剧集（10集）">剧集（10集）</option><option value="动作冒险片">动作冒险片</option><option value="动作喜剧电影">动作喜剧电影</option><option value="动作电影">动作电影</option><option value="动态漫画">动态漫画</option><option value="动漫">动漫</option><option value="动画">动画</option><option value="动画 / 剧集">动画 / 剧集</option><option value="动画 / 电影">动画 / 电影</option><option value="动画OVA">动画OVA</option><option value="动画剧集">动画剧集</option><option value="动画电影">动画电影</option><option value="动画短片">动画短片</option><option value="动画系列">动画系列</option><option value="古装, 爱情">古装, 爱情</option><option value="古装片">古装片</option><option value="奇幻喜剧片">奇幻喜剧片</option><option value="悬疑剧">悬疑剧</option><option value="惊悚电影">惊悚电影</option><option value="浪漫剧情电影">浪漫剧情电影</option><option value="爱情电影">爱情电影</option><option value="特摄">特摄</option><option value="犯罪动作惊悚片">犯罪动作惊悚片</option><option value="犯罪悬疑电影">犯罪悬疑电影</option><option value="犯罪惊悚电影">犯罪惊悚电影</option><option value="犯罪电视剧 第三季">犯罪电视剧 第三季</option><option value="玄幻爱情剧">玄幻爱情剧</option><option value="电影">电影</option><option value="电影 (国配版)">电影 (国配版)</option><option value="电影 / 剧集SP">电影 / 剧集SP</option><option value="电影 / 动画">电影 / 动画</option><option value="电影/动画">电影/动画</option><option value="电视剧">电视剧</option><option value="电视剧 / 10集">电视剧 / 10集</option><option value="电视剧 / 30集">电视剧 / 30集</option><option value="电视剧 / 8集">电视剧 / 8集</option><option value="电视剧 / 迷你剧">电视剧 / 迷你剧</option><option value="电视剧/网剧">电视剧/网剧</option><option value="电视剧特别篇">电视剧特别篇</option><option value="电视剧系列">电视剧系列</option><option value="电视剧集">电视剧集</option><option value="电视电影">电视电影</option>
+            </select>
+        </label>
+        <label>
+            <span>年份</span>
+            <select id="yearFilter">
+                <option value="">全部年份</option>
+                <option value="1918">1918</option><option value="1931">1931</option><option value="1932">1932</option><option value="1936">1936</option><option value="1952">1952</option><option value="1953">1953</option><option value="1954">1954</option><option value="1955">1955</option><option value="1959">1959</option><option value="1962">1962</option><option value="1963">1963</option><option value="1964">1964</option><option value="1965">1965</option><option value="1967">1967</option><option value="1968">1968</option><option value="1969">1969</option><option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1993 / 2017">1993 / 2017</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2006 (重制版)">2006 (重制版)</option><option value="2007">2007</option><option value="2008">2008</option><option value="2008-2020">2008-2020</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option>
+            </select>
+        </label>
+    </div>
+</section>
+    <section class="movie-grid category-movie-grid" id="movieGrid">
+        <article class="movie-card" data-title="牛之晚春" data-region="日本" data-type="电影" data-year="2028" data-tags="农村 父子 耕牛 现代化 告别">
+    <a class="movie-cover" href="./movie-0008.html" aria-label="牛之晚春 在线观看">
+        <img src="./8.jpg" alt="牛之晚春" loading="lazy">
+        <span class="movie-badge">2028</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0008.html" class="movie-title">牛之晚春</a>
+        <p class="movie-line">老农牵着最后一头耕牛参加“全日本耕牛大赛”，却发现赛场上只剩他一个人类。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情，家庭</span>
+        </div>
+        <div class="tag-row"><span>农村</span><span>父子</span><span>耕牛</span><span>现代化</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="夜行怪物" data-region="韩国" data-type="电影" data-year="2026" data-tags="都市传说 诅咒 怪物 反转">
+    <a class="movie-cover" href="./movie-0052.html" aria-label="夜行怪物 在线观看">
+        <img src="./52.jpg" alt="夜行怪物" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0052.html" class="movie-title">夜行怪物</a>
+        <p class="movie-line">首尔午夜出现了一种只攻击“欺负过流浪猫”的人的隐形怪物，一个虐猫的视频博主被迫成为被猎杀者。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖, 奇幻, 惊悚</span>
+        </div>
+        <div class="tag-row"><span>都市传说</span><span>诅咒</span><span>怪物</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="超级飞侠第十季" data-region="中国大陆" data-type="剧集" data-year="2022" data-tags="乐迪 救援 全球文化 机器人 友谊">
+    <a class="movie-cover" href="./movie-0061.html" aria-label="超级飞侠第十季 在线观看">
+        <img src="./61.jpg" alt="超级飞侠第十季" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0061.html" class="movie-title">超级飞侠第十季</a>
+        <p class="movie-line">乐迪和他的飞机伙伴们再次升级，去解决全球各地孩子们遇到的突发危机。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>动画、儿童、冒险</span>
+        </div>
+        <div class="tag-row"><span>乐迪</span><span>救援</span><span>全球文化</span><span>机器人</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="米尔格伦实验者" data-region="美国" data-type="电影" data-year="2025" data-tags="电击实验 服从权威 人性黑暗 真实改编">
+    <a class="movie-cover" href="./movie-0083.html" aria-label="米尔格伦实验者 在线观看">
+        <img src="./83.jpg" alt="米尔格伦实验者" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0083.html" class="movie-title">米尔格伦实验者</a>
+        <p class="movie-line">真实的米尔格伦电击实验幕后，助理实验员发现自己才是被观察的真正“受试者”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>惊悚 / 心理 / 传记</span>
+        </div>
+        <div class="tag-row"><span>电击实验</span><span>服从权威</span><span>人性黑暗</span><span>真实改编</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="墨西哥情书" data-region="墨西哥 / 美国" data-type="电影" data-year="2024" data-tags="公路片 情书 寻根 亡父 吉普赛音乐">
+    <a class="movie-cover" href="./movie-0097.html" aria-label="墨西哥情书 在线观看">
+        <img src="./97.jpg" alt="墨西哥情书" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">墨西哥 / 美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0097.html" class="movie-title">墨西哥情书</a>
+        <p class="movie-line">女孩在亡父遗物中发现一封未寄出的情书，收件人是一位生活在墨西哥街头的流浪歌手。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情 / 冒险</span>
+        </div>
+        <div class="tag-row"><span>公路片</span><span>情书</span><span>寻根</span><span>亡父</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="玩命鎗火" data-region="中国香港" data-type="电影" data-year="2025" data-tags="枪战 兄弟情 卧底">
+    <a class="movie-cover" href="./movie-0102.html" aria-label="玩命鎗火 在线观看">
+        <img src="./102.jpg" alt="玩命鎗火" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0102.html" class="movie-title">玩命鎗火</a>
+        <p class="movie-line">警方与毒枭交易现场被第三方偷袭，所有人困在烂尾楼，只剩子弹和猜疑。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作</span>
+        </div>
+        <div class="tag-row"><span>枪战</span><span>兄弟情</span><span>卧底</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="著魔" data-region="韩国" data-type="电影" data-year="2024" data-tags="邪教 心理操控 反转 恐怖">
+    <a class="movie-cover" href="./movie-0136.html" aria-label="著魔 在线观看">
+        <img src="./136.jpg" alt="著魔" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0136.html" class="movie-title">著魔</a>
+        <p class="movie-line">女记者潜入神秘教派，却发现教主预言的所有灾难都一一应验。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑 / 惊悚</span>
+        </div>
+        <div class="tag-row"><span>邪教</span><span>心理操控</span><span>反转</span><span>恐怖</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="大魔神归来" data-region="日本" data-type="电影" data-year="2022" data-tags="古代神像 觉醒封印 都市崩坏 兄妹羁绊">
+    <a class="movie-cover" href="./movie-0164.html" aria-label="大魔神归来 在线观看">
+        <img src="./14.jpg" alt="大魔神归来" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0164.html" class="movie-title">大魔神归来</a>
+        <p class="movie-line">封存千年的巨神雕像在地震后苏醒，守护它的家族后裔却发现，真正要阻止的不是怪兽，而是把神当武器的人类。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>奇幻动作, 怪兽冒险, 灾难科幻</span>
+        </div>
+        <div class="tag-row"><span>古代神像</span><span>觉醒封印</span><span>都市崩坏</span><span>兄妹羁绊</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="里斯本之恋" data-region="葡萄牙" data-type="电影" data-year="2023" data-tags="异国恋 城市漫游 怀旧 音乐梦想">
+    <a class="movie-cover" href="./movie-0169.html" aria-label="里斯本之恋 在线观看">
+        <img src="./19.jpg" alt="里斯本之恋" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">葡萄牙</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0169.html" class="movie-title">里斯本之恋</a>
+        <p class="movie-line">一位中国女留学生与里斯本老书店店主在命运交织中，用音乐与旧信件解开家族前世谜团。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情 / 剧情</span>
+        </div>
+        <div class="tag-row"><span>异国恋</span><span>城市漫游</span><span>怀旧</span><span>音乐梦想</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="暴力监狱第二季" data-region="美国" data-type="动画剧集" data-year="2024" data-tags="重金属 血腥 荒诞">
+    <a class="movie-cover" href="./movie-0175.html" aria-label="暴力监狱第二季 在线观看">
+        <img src="./25.jpg" alt="暴力监狱第二季" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0175.html" class="movie-title">暴力监狱第二季</a>
+        <p class="movie-line">上一季炸毁监狱后，狱警和囚犯们漂流到一座全是变种恐龙的法外荒岛，继续死磕。</p>
+        <div class="movie-meta">
+            <span>动画剧集</span>
+            <span>动作, 喜剧, 成人向</span>
+        </div>
+        <div class="tag-row"><span>重金属</span><span>血腥</span><span>荒诞</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="桑拿夜" data-region="芬兰" data-type="电影" data-year="2023" data-tags="桑拿 家族秘密 北欧">
+    <a class="movie-cover" href="./movie-0235.html" aria-label="桑拿夜 在线观看">
+        <img src="./85.jpg" alt="桑拿夜" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">芬兰</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0235.html" class="movie-title">桑拿夜</a>
+        <p class="movie-line">一个家族在传统桑拿夜团聚，随着室温升高，七十五年前一桩弑父惨案的真相开始蒸发而出。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情， 惊悚</span>
+        </div>
+        <div class="tag-row"><span>桑拿</span><span>家族秘密</span><span>北欧</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="记忆误区" data-region="英国" data-type="剧集" data-year="2024" data-tags="记忆删除 婚姻危机 真相">
+    <a class="movie-cover" href="./movie-0239.html" aria-label="记忆误区 在线观看">
+        <img src="./89.jpg" alt="记忆误区" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0239.html" class="movie-title">记忆误区</a>
+        <p class="movie-line">夫妻同时接受记忆删除手术以挽救婚姻，但手术成功后，他们都坚信对方删除了不该删除的记忆。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>科幻， 悬疑， 心理</span>
+        </div>
+        <div class="tag-row"><span>记忆删除</span><span>婚姻危机</span><span>真相</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="游戏人生" data-region="中国大陆" data-type="剧集" data-year="2024" data-tags="虚拟现实 职场逆袭 规则怪谈">
+    <a class="movie-cover" href="./movie-0254.html" aria-label="游戏人生 在线观看">
+        <img src="./104.jpg" alt="游戏人生" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0254.html" class="movie-title">游戏人生</a>
+        <p class="movie-line">三十岁失业程序员进入一款诡异的真人游戏，只有通关才能改变现实中负债累累的人生。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>剧情, 奇幻, 悬疑</span>
+        </div>
+        <div class="tag-row"><span>虚拟现实</span><span>职场逆袭</span><span>规则怪谈</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="孤航" data-region="英国" data-type="电影" data-year="2023" data-tags="真实事件改编 帆船航海 人类极限 孤独哲学">
+    <a class="movie-cover" href="./movie-0275.html" aria-label="孤航 在线观看">
+        <img src="./125.jpg" alt="孤航" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0275.html" class="movie-title">孤航</a>
+        <p class="movie-line">患有人际交往障碍的英国青年决定独自无补给横渡大西洋，在与风浪和孤独的对峙中，找到了与自我和解的方式。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 冒险 / 传记</span>
+        </div>
+        <div class="tag-row"><span>真实事件改编</span><span>帆船航海</span><span>人类极限</span><span>孤独哲学</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="古堡怪人" data-region="英国" data-type="电影" data-year="2022" data-tags="哥特 家族秘密 地下室 身份谜团 雨夜">
+    <a class="movie-cover" href="./movie-0283.html" aria-label="古堡怪人 在线观看">
+        <img src="./133.jpg" alt="古堡怪人" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0283.html" class="movie-title">古堡怪人</a>
+        <p class="movie-line">为继承遗产，七名家族后裔被困雨夜古堡，却不知“怪人”一直藏在他们中间。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑, 惊悚, 剧情</span>
+        </div>
+        <div class="tag-row"><span>哥特</span><span>家族秘密</span><span>地下室</span><span>身份谜团</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="青春梦" data-region="中国台湾" data-type="电影" data-year="2024" data-tags="青春 成长 家庭 梦想">
+    <a class="movie-cover" href="./movie-0287.html" aria-label="青春梦 在线观看">
+        <img src="./137.jpg" alt="青春梦" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0287.html" class="movie-title">青春梦</a>
+        <p class="movie-line">即将高考的女儿发现母亲年轻时的日记，秘密揭开后两人一起踏上了追梦之旅。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情</span>
+        </div>
+        <div class="tag-row"><span>青春</span><span>成长</span><span>家庭</span><span>梦想</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="镖行天下之神武大炮" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="古代快递 明朝火器 马车追逐 忠义精神">
+    <a class="movie-cover" href="./movie-0294.html" aria-label="镖行天下之神武大炮 在线观看">
+        <img src="./144.jpg" alt="镖行天下之神武大炮" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0294.html" class="movie-title">镖行天下之神武大炮</a>
+        <p class="movie-line">明朝末年，一间老镖局接到密令：护送一门能扭转战局的神武大炮穿越敌占区。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作, 武侠, 历史</span>
+        </div>
+        <div class="tag-row"><span>古代快递</span><span>明朝火器</span><span>马车追逐</span><span>忠义精神</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="爱·你别走" data-region="中国台湾" data-type="电影" data-year="2025" data-tags="时空循环 绝症 催泪 救赎">
+    <a class="movie-cover" href="./movie-0301.html" aria-label="爱·你别走 在线观看">
+        <img src="./1.jpg" alt="爱·你别走" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0301.html" class="movie-title">爱·你别走</a>
+        <p class="movie-line">丈夫确诊绝症后，妻子每晚都能回到他发病前一天，却永远无法改变结局。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情, 奇幻</span>
+        </div>
+        <div class="tag-row"><span>时空循环</span><span>绝症</span><span>催泪</span><span>救赎</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="错爱天堂" data-region="中国台湾" data-type="电影" data-year="2027" data-tags="记忆删除 婚姻 反转">
+    <a class="movie-cover" href="./movie-0312.html" aria-label="错爱天堂 在线观看">
+        <img src="./12.jpg" alt="错爱天堂" loading="lazy">
+        <span class="movie-badge">2027</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0312.html" class="movie-title">错爱天堂</a>
+        <p class="movie-line">结婚十年的完美丈夫，在“记忆删除诊所”里删掉的最后一句话是：“我恨她。”</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>记忆删除</span><span>婚姻</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="魔咒" data-region="美国" data-type="电影" data-year="2018" data-tags="诅咒回声 旧唱片 代价交换 午夜幻听 家族秘密 黑暗仪式">
+    <a class="movie-cover" href="./movie-0316.html" aria-label="魔咒 在线观看">
+        <img src="./16.jpg" alt="魔咒" loading="lazy">
+        <span class="movie-badge">2018</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0316.html" class="movie-title">魔咒</a>
+        <p class="movie-line">一段被封存三十年的录音在深夜自动播放后，听见它的人会在七天内把最害怕的事变成现实。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>奇幻惊悚</span>
+        </div>
+        <div class="tag-row"><span>诅咒回声</span><span>旧唱片</span><span>代价交换</span><span>午夜幻听</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="霹雳天启" data-region="中国台湾" data-type="剧集" data-year="2026" data-tags="素还真归来 末世天启 机械与术法 十二时辰杀手 末日倒计时">
+    <a class="movie-cover" href="./movie-0355.html" aria-label="霹雳天启 在线观看">
+        <img src="./55.jpg" alt="霹雳天启" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0355.html" class="movie-title">霹雳天启</a>
+        <p class="movie-line">素还真消失十年后，苦境大地出现十二位以时辰为代号的杀手，每杀一人，天启末日就近一分。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>奇幻、武侠、布袋戏</span>
+        </div>
+        <div class="tag-row"><span>素还真归来</span><span>末世天启</span><span>机械与术法</span><span>十二时辰杀手</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="滑铁卢战役" data-region="英国 / 法国" data-type="电影" data-year="1970" data-tags="拿破仑 决战 战场调度 历史复盘 史诗战争">
+    <a class="movie-cover" href="./movie-0358.html" aria-label="滑铁卢战役 在线观看">
+        <img src="./58.jpg" alt="滑铁卢战役" loading="lazy">
+        <span class="movie-badge">1970</span>
+        <span class="movie-region">英国 / 法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0358.html" class="movie-title">滑铁卢战役</a>
+        <p class="movie-line">当帝国的野心与联军的耐心在滑铁卢正面相撞，失败不再只是一个结局，而是整段历史的拐点。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>战争 / 历史 / 史诗</span>
+        </div>
+        <div class="tag-row"><span>拿破仑</span><span>决战</span><span>战场调度</span><span>历史复盘</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="金牌特务：金士曼起源" data-region="英国 / 美国" data-type="电影" data-year="2024" data-tags="前传 一战 贵族特工 绅士">
+    <a class="movie-cover" href="./movie-0359.html" aria-label="金牌特务：金士曼起源 在线观看">
+        <img src="./59.jpg" alt="金牌特务：金士曼起源" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">英国 / 美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0359.html" class="movie-title">金牌特务：金士曼起源</a>
+        <p class="movie-line">1914年，一群被主流情报机构抛弃的英国贵族败类，用最不体面的手段，拯救了最体面的大英帝国。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 间谍</span>
+        </div>
+        <div class="tag-row"><span>前传</span><span>一战</span><span>贵族特工</span><span>绅士</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="奇迹制造者" data-region="中国香港" data-type="电影" data-year="2026" data-tags="街头篮球 残疾人生 社会底层 真实改编感">
+    <a class="movie-cover" href="./movie-0364.html" aria-label="奇迹制造者 在线观看">
+        <img src="./64.jpg" alt="奇迹制造者" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0364.html" class="movie-title">奇迹制造者</a>
+        <p class="movie-line">独臂拾荒者在香港天桥下组建了一支篮球队，队员全是瘾君子、前黑社会和自闭症少年。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 运动 / 励志</span>
+        </div>
+        <div class="tag-row"><span>街头篮球</span><span>残疾人生</span><span>社会底层</span><span>真实改编感</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="地平线：美国传奇 第一部" data-region="美国" data-type="电影" data-year="2026" data-tags="开拓史 印第安人 大制作 暴力 凯文·科斯特纳">
+    <a class="movie-cover" href="./movie-0366.html" aria-label="地平线：美国传奇 第一部 在线观看">
+        <img src="./66.jpg" alt="地平线：美国传奇 第一部" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0366.html" class="movie-title">地平线：美国传奇 第一部</a>
+        <p class="movie-line">1865年，从加州到密苏里，六个不同种族的家庭，为了抢夺“地平线”这块土地，展开血腥的生存战。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>西部 / 史诗 / 历史</span>
+        </div>
+        <div class="tag-row"><span>开拓史</span><span>印第安人</span><span>大制作</span><span>暴力</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="绝代妖姬" data-region="意大利/法国" data-type="剧集" data-year="2023" data-tags="阉伶歌手 巴洛克 权力 音乐">
+    <a class="movie-cover" href="./movie-0367.html" aria-label="绝代妖姬 在线观看">
+        <img src="./67.jpg" alt="绝代妖姬" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">意大利/法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0367.html" class="movie-title">绝代妖姬</a>
+        <p class="movie-line">18世纪最耀眼的阉伶歌手，用歌声征服了欧洲，却被一个女人撕下了面具。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>历史/传记</span>
+        </div>
+        <div class="tag-row"><span>阉伶歌手</span><span>巴洛克</span><span>权力</span><span>音乐</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="魔笛" data-region="英国 / 德国" data-type="电影" data-year="2006" data-tags="莫扎特 歌剧改编 魔法世界 少年冒险 古典音乐">
+    <a class="movie-cover" href="./movie-0375.html" aria-label="魔笛 在线观看">
+        <img src="./75.jpg" alt="魔笛" loading="lazy">
+        <span class="movie-badge">2006</span>
+        <span class="movie-region">英国 / 德国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0375.html" class="movie-title">魔笛</a>
+        <p class="movie-line">一个热爱摇滚的叛逆少年，穿越进莫扎特的歌剧世界，必须用笛声拯救两个世界。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>奇幻 / 冒险 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>莫扎特</span><span>歌剧改编</span><span>魔法世界</span><span>少年冒险</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="变蝇人2国语" data-region="美国 / 中国大陆（配音）" data-type="电影" data-year="2027" data-tags="重口味 伦理 进化 国语配音 经典续作">
+    <a class="movie-cover" href="./movie-0400.html" aria-label="变蝇人2国语 在线观看">
+        <img src="./100.jpg" alt="变蝇人2国语" loading="lazy">
+        <span class="movie-badge">2027</span>
+        <span class="movie-region">美国 / 中国大陆（配音）</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0400.html" class="movie-title">变蝇人2国语</a>
+        <p class="movie-line">初代变蝇人的儿子长大成人，他继承了父亲的超凡智慧，也继承了那个不稳定的“蝇”之基因，这次他要“进化”的是全人类。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻 / 恐怖 / 身体</span>
+        </div>
+        <div class="tag-row"><span>重口味</span><span>伦理</span><span>进化</span><span>国语配音</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="借来的100天泰国版" data-region="泰国" data-type="电影" data-year="2024" data-tags="重生 悬疑 催泪">
+    <a class="movie-cover" href="./movie-0403.html" aria-label="借来的100天泰国版 在线观看">
+        <img src="./103.jpg" alt="借来的100天泰国版" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">泰国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0403.html" class="movie-title">借来的100天泰国版</a>
+        <p class="movie-line">一个游荡的灵魂被允许借尸还魂100天，他必须查出这具身体原主人的死因，否则将魂飞魄散。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 奇幻 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>重生</span><span>悬疑</span><span>催泪</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="66号客栈" data-region="中国大陆" data-type="电影" data-year="2023" data-tags="暴风雪山庄 轮回 凶宅 国产恐怖 烧脑">
+    <a class="movie-cover" href="./movie-0416.html" aria-label="66号客栈 在线观看">
+        <img src="./116.jpg" alt="66号客栈" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0416.html" class="movie-title">66号客栈</a>
+        <p class="movie-line">四个驴友住进无人客栈，次日醒来发现自己变成了客栈的“老物件”，必须找出内鬼才能解除诅咒。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑, 惊悚</span>
+        </div>
+        <div class="tag-row"><span>暴风雪山庄</span><span>轮回</span><span>凶宅</span><span>国产恐怖</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="敞开的落地窗" data-region="西班牙" data-type="电影" data-year="2023" data-tags="心理 公寓 邻居 偷窥 反转">
+    <a class="movie-cover" href="./movie-0419.html" aria-label="敞开的落地窗 在线观看">
+        <img src="./119.jpg" alt="敞开的落地窗" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">西班牙</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0419.html" class="movie-title">敞开的落地窗</a>
+        <p class="movie-line">一位社恐作家透过落地窗目睹对面楼发生谋杀，但警察赶到时对面房间的格局和昨晚完全不一样。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑, 惊悚, 剧情</span>
+        </div>
+        <div class="tag-row"><span>心理</span><span>公寓</span><span>邻居</span><span>偷窥</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="旧爱重燃" data-region="韩国" data-type="电影" data-year="2025" data-tags="破镜重圆 时间跨度 细腻 成年爱情">
+    <a class="movie-cover" href="./movie-0425.html" aria-label="旧爱重燃 在线观看">
+        <img src="./125.jpg" alt="旧爱重燃" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0425.html" class="movie-title">旧爱重燃</a>
+        <p class="movie-line">离婚三年后，他们在临终关怀医院重逢，一个将死，一个陪护。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情, 剧情</span>
+        </div>
+        <div class="tag-row"><span>破镜重圆</span><span>时间跨度</span><span>细腻</span><span>成年爱情</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="钢铁交响乐" data-region="中国大陆" data-type="电影" data-year="2022" data-tags="工厂 管弦乐 梦想 工人阶级">
+    <a class="movie-cover" href="./movie-0432.html" aria-label="钢铁交响乐 在线观看">
+        <img src="./132.jpg" alt="钢铁交响乐" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0432.html" class="movie-title">钢铁交响乐</a>
+        <p class="movie-line">一群即将下岗的钢铁厂工人，为了最后的风光，组建了一支前所未有的“钢铁交响乐团”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情, 音乐</span>
+        </div>
+        <div class="tag-row"><span>工厂</span><span>管弦乐</span><span>梦想</span><span>工人阶级</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="集中营碧血花" data-region="中国香港" data-type="电影" data-year="1987" data-tags="抗战 女性力量 集中营 暴力美学">
+    <a class="movie-cover" href="./movie-0501.html" aria-label="集中营碧血花 在线观看">
+        <img src="./51.jpg" alt="集中营碧血花" loading="lazy">
+        <span class="movie-badge">1987</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0501.html" class="movie-title">集中营碧血花</a>
+        <p class="movie-line">抗战末期，一群身份各异的中国女性被送入日军集中营，用血与花谱写了最后的尊严之战。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 历史 / 战争</span>
+        </div>
+        <div class="tag-row"><span>抗战</span><span>女性力量</span><span>集中营</span><span>暴力美学</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="理查德·普赖尔：单口现场" data-region="美国" data-type="综艺 / 专场" data-year="2026" data-tags="理查德·普赖尔 经典再现 AI修复 黑人喜剧">
+    <a class="movie-cover" href="./movie-0502.html" aria-label="理查德·普赖尔：单口现场 在线观看">
+        <img src="./52.jpg" alt="理查德·普赖尔：单口现场" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0502.html" class="movie-title">理查德·普赖尔：单口现场</a>
+        <p class="movie-line">利用AI技术修复并重新剪辑的理查德·普赖尔1979年失传现场，包含从未曝光的20分钟。</p>
+        <div class="movie-meta">
+            <span>综艺 / 专场</span>
+            <span>脱口秀 / 纪录片</span>
+        </div>
+        <div class="tag-row"><span>理查德·普赖尔</span><span>经典再现</span><span>AI修复</span><span>黑人喜剧</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="轻音少女第二季 粤语版" data-region="中国香港" data-type="动画" data-year="2011" data-tags="女子乐队 放学后茶会 粤语配音">
+    <a class="movie-cover" href="./movie-0526.html" aria-label="轻音少女第二季 粤语版 在线观看">
+        <img src="./76.jpg" alt="轻音少女第二季 粤语版" loading="lazy">
+        <span class="movie-badge">2011</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0526.html" class="movie-title">轻音少女第二季 粤语版</a>
+        <p class="movie-line">樱丘高中轻音部五人组，在毕业前最后一年，用音乐和友谊填满日常。</p>
+        <div class="movie-meta">
+            <span>动画</span>
+            <span>校园音乐</span>
+        </div>
+        <div class="tag-row"><span>女子乐队</span><span>放学后茶会</span><span>粤语配音</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="蓝调计程车" data-region="中国台湾" data-type="电影" data-year="2024" data-tags="夜班司机 蓝调口琴 都市传说 救赎">
+    <a class="movie-cover" href="./movie-0533.html" aria-label="蓝调计程车 在线观看">
+        <img src="./83.jpg" alt="蓝调计程车" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0533.html" class="movie-title">蓝调计程车</a>
+        <p class="movie-line">一位失去儿子的夜班计程车司机，通过车内播放的蓝调与乘客们交换着彼此破碎的人生。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 音乐</span>
+        </div>
+        <div class="tag-row"><span>夜班司机</span><span>蓝调口琴</span><span>都市传说</span><span>救赎</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 炼狱信使 沙普的围攻 天剑绝刀国语 公平的爱 我的爱在燃烧 朋友圈儿里的男朋友 冬日微暖 女神天国 娜塔莉的情人 回答不出时尚 中国好声音2015 女性之光 药命旅程 古惑仔之人在江湖 自由机器 不是为了爱情 碧芦冤孽 大校的女儿 塔拉德加之夜 歃血兄弟" data-region="根据片名判断" data-type="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断">
+    <a class="movie-cover" href="./movie-0545.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 炼狱信使 沙普的围攻 天剑绝刀国语 公平的爱 我的爱在燃烧 朋友圈儿里的男朋友 冬日微暖 女神天国 娜塔莉的情人 回答不出时尚 中国好声音2015 女性之光 药命旅程 古惑仔之人在江湖 自由机器 不是为了爱情 碧芦冤孽 大校的女儿 塔拉德加之夜 歃血兄弟 在线观看">
+        <img src="./95.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 炼狱信使 沙普的围攻 天剑绝刀国语 公平的爱 我的爱在燃烧 朋友圈儿里的男朋友 冬日微暖 女神天国 娜塔莉的情人 回答不出时尚 中国好声音2015 女性之光 药命旅程 古惑仔之人在江湖 自由机器 不是为了爱情 碧芦冤孽 大校的女儿 塔拉德加之夜 歃血兄弟" loading="lazy">
+        <span class="movie-badge">根据片名判断</span>
+        <span class="movie-region">根据片名判断</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0545.html" class="movie-title">使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 炼狱信使 沙普的围攻 天剑绝刀国语 公平的爱 我的爱在燃烧 朋友圈儿里的男朋友 冬日微暖 女神天国 娜塔莉的情人 回答不出时尚 中国好声音2015 女性之光 药命旅程 古惑仔之人在江湖 自由机器 不是为了爱情 碧芦冤孽 大校的女儿 塔拉德加之夜 歃血兄弟</a>
+        <p class="movie-line">（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+        <div class="movie-meta">
+            <span>根据片名判断</span>
+            <span>根据片名判断</span>
+        </div>
+        <div class="tag-row"><span>根据片名判断</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="刺客的子弹" data-region="法国 / 意大利" data-type="电影" data-year="2024" data-tags="杀手 复仇 欧洲 冷战">
+    <a class="movie-cover" href="./movie-0552.html" aria-label="刺客的子弹 在线观看">
+        <img src="./102.jpg" alt="刺客的子弹" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">法国 / 意大利</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0552.html" class="movie-title">刺客的子弹</a>
+        <p class="movie-line">隐退的顶级杀手为救爱女重出江湖，却发现目标不仅是一个叛国者，更是女儿失踪案的最后一块拼图。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作, 惊悚, 犯罪</span>
+        </div>
+        <div class="tag-row"><span>杀手</span><span>复仇</span><span>欧洲</span><span>冷战</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="55步" data-region="美国" data-type="电影" data-year="2024" data-tags="精神病院 人权斗争 律师">
+    <a class="movie-cover" href="./movie-0556.html" aria-label="55步 在线观看">
+        <img src="./106.jpg" alt="55步" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0556.html" class="movie-title">55步</a>
+        <p class="movie-line">女律师为被强制关押在精神病院的女病人打官司，发现55步程序背后是系统性迫害。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情、历史、传记</span>
+        </div>
+        <div class="tag-row"><span>精神病院</span><span>人权斗争</span><span>律师</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="十全九美之真爱无双" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="无厘头 欢喜冤家 江湖 寻宝">
+    <a class="movie-cover" href="./movie-0572.html" aria-label="十全九美之真爱无双 在线观看">
+        <img src="./122.jpg" alt="十全九美之真爱无双" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0572.html" class="movie-title">十全九美之真爱无双</a>
+        <p class="movie-line">名震江湖的“完美大侠”什么都会，唯独不会谈恋爱，直到他遇到了那个专门挑他毛病的“毒舌医女”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧 / 爱情 / 古装</span>
+        </div>
+        <div class="tag-row"><span>无厘头</span><span>欢喜冤家</span><span>江湖</span><span>寻宝</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="这时对，那时错" data-region="韩国" data-type="电影" data-year="2015" data-tags="洪尚秀 结构主义 偶然 两段式">
+    <a class="movie-cover" href="./movie-0584.html" aria-label="这时对，那时错 在线观看">
+        <img src="./134.jpg" alt="这时对，那时错" loading="lazy">
+        <span class="movie-badge">2015</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0584.html" class="movie-title">这时对，那时错</a>
+        <p class="movie-line">同一个故事拍两遍，只因一句话的转折，结局天差地别。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 爱情</span>
+        </div>
+        <div class="tag-row"><span>洪尚秀</span><span>结构主义</span><span>偶然</span><span>两段式</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="孤女" data-region="法国" data-type="电影" data-year="2017" data-tags="女性 成长 孤独 写实 欧洲">
+    <a class="movie-cover" href="./movie-0598.html" aria-label="孤女 在线观看">
+        <img src="./148.jpg" alt="孤女" loading="lazy">
+        <span class="movie-badge">2017</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0598.html" class="movie-title">孤女</a>
+        <p class="movie-line">一个被遗弃的女孩在修道院、工厂和街头辗转一生，只为找到母亲留下的一个名字。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 传记</span>
+        </div>
+        <div class="tag-row"><span>女性</span><span>成长</span><span>孤独</span><span>写实</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="三峡人家" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="三峡 拆迁 父女 故乡 现实主义">
+    <a class="movie-cover" href="./movie-0609.html" aria-label="三峡人家 在线观看">
+        <img src="./9.jpg" alt="三峡人家" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0609.html" class="movie-title">三峡人家</a>
+        <p class="movie-line">三峡工程前夕，返乡的女儿试图说服固执的父亲离开老宅，却揭开了一个埋藏三十年的家族秘密。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>三峡</span><span>拆迁</span><span>父女</span><span>故乡</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="日子" data-region="中国台湾" data-type="电影" data-year="2020" data-tags="蔡明亮 慢电影 日常 孤独 治愈">
+    <a class="movie-cover" href="./movie-0634.html" aria-label="日子 在线观看">
+        <img src="./34.jpg" alt="日子" loading="lazy">
+        <span class="movie-badge">2020</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0634.html" class="movie-title">日子</a>
+        <p class="movie-line">一个是病痛缠身的老男人，一个是穷困潦倒的异乡人，他们的日子只有沉默和抚摸。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情, 同性</span>
+        </div>
+        <div class="tag-row"><span>蔡明亮</span><span>慢电影</span><span>日常</span><span>孤独</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="墨菲的战争" data-region="英国" data-type="电影" data-year="1971" data-tags="二战 海上求生 疯狂复仇 经典老片">
+    <a class="movie-cover" href="./movie-0637.html" aria-label="墨菲的战争 在线观看">
+        <img src="./37.jpg" alt="墨菲的战争" loading="lazy">
+        <span class="movie-badge">1971</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0637.html" class="movie-title">墨菲的战争</a>
+        <p class="movie-line">二战结束前一天，一艘英国商船被德国潜艇击沉，唯一的幸存者发誓要找到那艘潜艇，把它炸上天。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>战争 / 剧情 / 心理</span>
+        </div>
+        <div class="tag-row"><span>二战</span><span>海上求生</span><span>疯狂复仇</span><span>经典老片</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="墓地邂逅2" data-region="加拿大" data-type="电影" data-year="2025" data-tags="伪纪录片 循环 医院灵异">
+    <a class="movie-cover" href="./movie-0656.html" aria-label="墓地邂逅2 在线观看">
+        <img src="./56.jpg" alt="墓地邂逅2" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">加拿大</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0656.html" class="movie-title">墓地邂逅2</a>
+        <p class="movie-line">一档灵探节目重返闹鬼精神病院，却发现他们被困在了上一次拍摄的录像带时间里。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖 / 惊悚</span>
+        </div>
+        <div class="tag-row"><span>伪纪录片</span><span>循环</span><span>医院灵异</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="最美丽的安排" data-region="美国" data-type="电影" data-year="2024" data-tags="轮回 心灵鸡汤 逆向时间 温情催泪 人生复盘">
+    <a class="movie-cover" href="./movie-0675.html" aria-label="最美丽的安排 在线观看">
+        <img src="./75.jpg" alt="最美丽的安排" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0675.html" class="movie-title">最美丽的安排</a>
+        <p class="movie-line">死神给了一个将死之人特权：让他倒着活一遍，他才发现自己厌恶的人生原来处处都是精心设计的礼物。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情/奇幻/治愈</span>
+        </div>
+        <div class="tag-row"><span>轮回</span><span>心灵鸡汤</span><span>逆向时间</span><span>温情催泪</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="哑谜" data-region="中国香港" data-type="电影" data-year="2025" data-tags="聋哑主角 无声恐惧 高智商犯罪 密室推理">
+    <a class="movie-cover" href="./movie-0701.html" aria-label="哑谜 在线观看">
+        <img src="./101.jpg" alt="哑谜" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0701.html" class="movie-title">哑谜</a>
+        <p class="movie-line">全城通缉的炸弹客死了，唯一知道他下一个炸弹在哪的人，是个哑巴。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑、犯罪、心理</span>
+        </div>
+        <div class="tag-row"><span>聋哑主角</span><span>无声恐惧</span><span>高智商犯罪</span><span>密室推理</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="群斗" data-region="韩国" data-type="电影" data-year="2023" data-tags="黑帮 公寓 电梯大战 多线叙事 暴力美学">
+    <a class="movie-cover" href="./movie-0715.html" aria-label="群斗 在线观看">
+        <img src="./115.jpg" alt="群斗" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0715.html" class="movie-title">群斗</a>
+        <p class="movie-line">三伙黑帮与一对杀手情侣在同一栋老旧公寓楼里火并，电梯成了生死轮盘。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 犯罪 / 黑色幽默</span>
+        </div>
+        <div class="tag-row"><span>黑帮</span><span>公寓</span><span>电梯大战</span><span>多线叙事</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="倩女仙缘" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="修仙 人妖恋 国风特效 虐恋 降妖">
+    <a class="movie-cover" href="./movie-0718.html" aria-label="倩女仙缘 在线观看">
+        <img src="./118.jpg" alt="倩女仙缘" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0718.html" class="movie-title">倩女仙缘</a>
+        <p class="movie-line">这一次，宁采臣不再是文弱书生，而是天赋异禀的修仙者，而他捉拿的头号女妖，正是前世爱人。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情 / 奇幻 / 古装</span>
+        </div>
+        <div class="tag-row"><span>修仙</span><span>人妖恋</span><span>国风特效</span><span>虐恋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="惊杀大阴谋" data-region="美国" data-type="电影" data-year="1991" data-tags="法庭 反转 心理战 演技">
+    <a class="movie-cover" href="./movie-0723.html" aria-label="惊杀大阴谋 在线观看">
+        <img src="./123.jpg" alt="惊杀大阴谋" loading="lazy">
+        <span class="movie-badge">1991</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0723.html" class="movie-title">惊杀大阴谋</a>
+        <p class="movie-line">一个被指控杀妻的富豪聘请了全美最好的律师，但律师渐渐发现，当事人可能是无辜的。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑、犯罪</span>
+        </div>
+        <div class="tag-row"><span>法庭</span><span>反转</span><span>心理战</span><span>演技</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="陷害布兰妮·斯皮尔斯" data-region="美国" data-type="电影" data-year="2021" data-tags="流行文化 女性权力 监护权争议 媒体审判 解构主义">
+    <a class="movie-cover" href="./movie-0728.html" aria-label="陷害布兰妮·斯皮尔斯 在线观看">
+        <img src="./128.jpg" alt="陷害布兰妮·斯皮尔斯" loading="lazy">
+        <span class="movie-badge">2021</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0728.html" class="movie-title">陷害布兰妮·斯皮尔斯</a>
+        <p class="movie-line">本片复盘了布兰妮从童星到被媒体摧毁再到被父亲监护的全过程，试图回答：谁真正陷害了她？</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>纪录片 / 传记 / 社会</span>
+        </div>
+        <div class="tag-row"><span>流行文化</span><span>女性权力</span><span>监护权争议</span><span>媒体审判</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="炎之蜃气楼：水际的反叛者" data-region="日本" data-type="OVA" data-year="2004" data-tags="耽美 战国 转世 悲剧">
+    <a class="movie-cover" href="./movie-0731.html" aria-label="炎之蜃气楼：水际的反叛者 在线观看">
+        <img src="./131.jpg" alt="炎之蜃气楼：水际的反叛者" loading="lazy">
+        <span class="movie-badge">2004</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0731.html" class="movie-title">炎之蜃气楼：水际的反叛者</a>
+        <p class="movie-line">战国武将上杉景虎与直江信纲的转世，在现代再度相遇并卷入宿命纷争，水中倒影映出千年的爱恨。</p>
+        <div class="movie-meta">
+            <span>OVA</span>
+            <span>动画 / 奇幻 / 历史</span>
+        </div>
+        <div class="tag-row"><span>耽美</span><span>战国</span><span>转世</span><span>悲剧</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="幽灵新人种" data-region="美国" data-type="电影" data-year="2025" data-tags="基因编辑 隐形能力 伦理争议">
+    <a class="movie-cover" href="./movie-0751.html" aria-label="幽灵新人种 在线观看">
+        <img src="./1.jpg" alt="幽灵新人种" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0751.html" class="movie-title">幽灵新人种</a>
+        <p class="movie-line">科学家意外创造出无法被观测的新人类，他们悄然接管世界，只有一名盲人能察觉他们的存在。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>基因编辑</span><span>隐形能力</span><span>伦理争议</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="王牌大律师2" data-region="日本" data-type="剧集" data-year="2024" data-tags="法庭 反转 毒舌 正义">
+    <a class="movie-cover" href="./movie-0757.html" aria-label="王牌大律师2 在线观看">
+        <img src="./7.jpg" alt="王牌大律师2" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0757.html" class="movie-title">王牌大律师2</a>
+        <p class="movie-line">古美门研介回来了，这次他接手的案子，连他自己都觉得被告“该死”，但他依然要打赢。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>剧情， 律政， 喜剧</span>
+        </div>
+        <div class="tag-row"><span>法庭</span><span>反转</span><span>毒舌</span><span>正义</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="转生贵族的异世界冒险录" data-region="日本" data-type="动画剧集" data-year="2024" data-tags="转生 贵族 龙傲天 种田文 异世界">
+    <a class="movie-cover" href="./movie-0767.html" aria-label="转生贵族的异世界冒险录 在线观看">
+        <img src="./17.jpg" alt="转生贵族的异世界冒险录" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0767.html" class="movie-title">转生贵族的异世界冒险录</a>
+        <p class="movie-line">被公司开除的社畜转生为异世界边境贵族三男，本想低调种田，却意外觉醒了禁忌魔法。</p>
+        <div class="movie-meta">
+            <span>动画剧集</span>
+            <span>奇幻, 冒险, 异世界, 后宫</span>
+        </div>
+        <div class="tag-row"><span>转生</span><span>贵族</span><span>龙傲天</span><span>种田文</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="有梦就去闯" data-region="美国" data-type="电影" data-year="2023" data-tags="公路电影 父子 遗愿清单 平凡梦想">
+    <a class="movie-cover" href="./movie-0792.html" aria-label="有梦就去闯 在线观看">
+        <img src="./42.jpg" alt="有梦就去闯" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0792.html" class="movie-title">有梦就去闯</a>
+        <p class="movie-line">被诊断只剩三个月生命的单亲爸爸，带着8岁的女儿去完成她那个“要成为游乐园试玩员”的荒唐梦想。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧 / 冒险 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>公路电影</span><span>父子</span><span>遗愿清单</span><span>平凡梦想</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="万圣快乐" data-region="美国" data-type="电影" data-year="2024" data-tags="南瓜头 诅咒 小镇疑云">
+    <a class="movie-cover" href="./movie-0820.html" aria-label="万圣快乐 在线观看">
+        <img src="./70.jpg" alt="万圣快乐" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0820.html" class="movie-title">万圣快乐</a>
+        <p class="movie-line">小镇每年万圣节必须凑齐99个“不给糖就捣蛋”的小孩，否则南瓜王会抓走一个成人替代。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖, 喜剧</span>
+        </div>
+        <div class="tag-row"><span>南瓜头</span><span>诅咒</span><span>小镇疑云</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="红楼梦第二部：黛玉葬花" data-region="中国" data-type="电影" data-year="1962" data-tags="越剧 经典 悲剧 林黛玉">
+    <a class="movie-cover" href="./movie-0828.html" aria-label="红楼梦第二部：黛玉葬花 在线观看">
+        <img src="./78.jpg" alt="红楼梦第二部：黛玉葬花" loading="lazy">
+        <span class="movie-badge">1962</span>
+        <span class="movie-region">中国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0828.html" class="movie-title">红楼梦第二部：黛玉葬花</a>
+        <p class="movie-line">林黛玉在百花凋零的暮春葬花立冢，却无意中听到宝玉与宝钗即将大婚的消息。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>戏曲 / 爱情 / 古装</span>
+        </div>
+        <div class="tag-row"><span>越剧</span><span>经典</span><span>悲剧</span><span>林黛玉</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="五月八月" data-region="中国香港" data-type="电影" data-year="2004" data-tags="抗日战争 姐妹情 南京大屠杀">
+    <a class="movie-cover" href="./movie-0848.html" aria-label="五月八月 在线观看">
+        <img src="./98.jpg" alt="五月八月" loading="lazy">
+        <span class="movie-badge">2004</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0848.html" class="movie-title">五月八月</a>
+        <p class="movie-line">1937 年南京，一对小姐妹在战火中失去双亲，开始了九死一生的逃亡。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 战争 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>抗日战争</span><span>姐妹情</span><span>南京大屠杀</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="蜘蛛人：惊奇再起" data-region="美国" data-type="电影" data-year="2026" data-tags="重启 高中生 多元宇宙">
+    <a class="movie-cover" href="./movie-0899.html" aria-label="蜘蛛人：惊奇再起 在线观看">
+        <img src="./149.jpg" alt="蜘蛛人：惊奇再起" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0899.html" class="movie-title">蜘蛛人：惊奇再起</a>
+        <p class="movie-line">全新重启的蜘蛛人迈尔斯在对抗反派时意外撕开了多元宇宙裂缝，不同时空的蜘蛛侠们必须联手修复时间线。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>超级英雄</span>
+        </div>
+        <div class="tag-row"><span>重启</span><span>高中生</span><span>多元宇宙</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="大亨" data-region="中国香港" data-type="电影" data-year="2025" data-tags="枭雄 商战 黑帮">
+    <a class="movie-cover" href="./movie-0900.html" aria-label="大亨 在线观看">
+        <img src="./150.jpg" alt="大亨" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0900.html" class="movie-title">大亨</a>
+        <p class="movie-line">一个码头苦力如何用三十年成为四大家族之首，又用一夜输光一切。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>犯罪， 传记</span>
+        </div>
+        <div class="tag-row"><span>枭雄</span><span>商战</span><span>黑帮</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="阁楼阴魂" data-region="韩国" data-type="电影" data-year="2024" data-tags="凶宅 家庭诅咒 附身 驱魔">
+    <a class="movie-cover" href="./movie-0907.html" aria-label="阁楼阴魂 在线观看">
+        <img src="./7.jpg" alt="阁楼阴魂" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0907.html" class="movie-title">阁楼阴魂</a>
+        <p class="movie-line">一家五口搬进低价豪宅，发现阁楼里锁着一个靠谎言维生的怨灵。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖, 惊悚</span>
+        </div>
+        <div class="tag-row"><span>凶宅</span><span>家庭诅咒</span><span>附身</span><span>驱魔</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="今晚开放麦" data-region="中国大陆" data-type="综艺" data-year="2024" data-tags="脱口秀 喜剧 素人 开放麦 梦想">
+    <a class="movie-cover" href="./movie-0920.html" aria-label="今晚开放麦 在线观看">
+        <img src="./20.jpg" alt="今晚开放麦" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0920.html" class="movie-title">今晚开放麦</a>
+        <p class="movie-line">一群素人喜剧爱好者争抢“今晚开放麦”的五分钟登台机会。</p>
+        <div class="movie-meta">
+            <span>综艺</span>
+            <span>真人秀</span>
+        </div>
+        <div class="tag-row"><span>脱口秀</span><span>喜剧</span><span>素人</span><span>开放麦</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="人斩" data-region="日本" data-type="电影" data-year="2025" data-tags="武士 幕末 刽子手 血腥 哲学">
+    <a class="movie-cover" href="./movie-0923.html" aria-label="人斩 在线观看">
+        <img src="./23.jpg" alt="人斩" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0923.html" class="movie-title">人斩</a>
+        <p class="movie-line">幕末最强刽子手斩人无数，某夜他砍下一颗头后，那颗头竟开口对他说“谢谢”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 历史</span>
+        </div>
+        <div class="tag-row"><span>武士</span><span>幕末</span><span>刽子手</span><span>血腥</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="网者荣耀" data-region="中国大陆" data-type="剧集" data-year="2022" data-tags="电竞 网瘾 战队 逆袭 中年危机">
+    <a class="movie-cover" href="./movie-0924.html" aria-label="网者荣耀 在线观看">
+        <img src="./24.jpg" alt="网者荣耀" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0924.html" class="movie-title">网者荣耀</a>
+        <p class="movie-line">五个被生活碾压的“网瘾中年”，为还债重组电竞队，跟00后抢全国冠军。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>青春 / 电竞</span>
+        </div>
+        <div class="tag-row"><span>电竞</span><span>网瘾</span><span>战队</span><span>逆袭</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="7号禁地" data-region="韩国" data-type="电影" data-year="2024" data-tags="深海 石油平台 变异 封闭空间 生存">
+    <a class="movie-cover" href="./movie-0939.html" aria-label="7号禁地 在线观看">
+        <img src="./39.jpg" alt="7号禁地" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0939.html" class="movie-title">7号禁地</a>
+        <p class="movie-line">废弃石油平台“7号禁区”下方钻探出远古虫卵，工人们的恐惧会加速虫子破壳。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻 / 惊悚</span>
+        </div>
+        <div class="tag-row"><span>深海</span><span>石油平台</span><span>变异</span><span>封闭空间</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="决战紫禁之巅" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="动作 夺宝 宫廷 阴谋">
+    <a class="movie-cover" href="./movie-0943.html" aria-label="决战紫禁之巅 在线观看">
+        <img src="./43.jpg" alt="决战紫禁之巅" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0943.html" class="movie-title">决战紫禁之巅</a>
+        <p class="movie-line">月圆之夜，紫禁之巅，两位绝世高手对决，但真正的敌人藏在皇帝龙椅之下。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>古装武侠</span>
+        </div>
+        <div class="tag-row"><span>动作</span><span>夺宝</span><span>宫廷</span><span>阴谋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="虾兵蟹将" data-region="中国" data-type="电影" data-year="2025" data-tags="海鲜 市井江湖 黑色幽默">
+    <a class="movie-cover" href="./movie-0956.html" aria-label="虾兵蟹将 在线观看">
+        <img src="./56.jpg" alt="虾兵蟹将" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0956.html" class="movie-title">虾兵蟹将</a>
+        <p class="movie-line">一个海鲜市场倒闭前夜，卖虾的和卖蟹的两帮人马为了“最后一车皮皮虾”大打出手，却意外唤醒了海鲜的灵智。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧, 奇幻</span>
+        </div>
+        <div class="tag-row"><span>海鲜</span><span>市井江湖</span><span>黑色幽默</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="惊悚之夜" data-region="韩国" data-type="电影" data-year="2024" data-tags="直播 凶宅 灵异 反转 社会讽刺">
+    <a class="movie-cover" href="./movie-0963.html" aria-label="惊悚之夜 在线观看">
+        <img src="./63.jpg" alt="惊悚之夜" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0963.html" class="movie-title">惊悚之夜</a>
+        <p class="movie-line">网红主播挑战在废弃精神病院直播一晚，却发现镜头里看到的画面和肉眼完全不同。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>直播</span><span>凶宅</span><span>灵异</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="无可隐藏" data-region="意大利" data-type="电影" data-year="2024" data-tags="手机 社交恐惧 游戏 翻拍">
+    <a class="movie-cover" href="./movie-0967.html" aria-label="无可隐藏 在线观看">
+        <img src="./67.jpg" alt="无可隐藏" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">意大利</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0967.html" class="movie-title">无可隐藏</a>
+        <p class="movie-line">七位好友玩“共享手机”游戏，当所有秘密被实时投射在客厅大屏上，一场疯狂大逃杀开始了。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧，剧情，悬疑</span>
+        </div>
+        <div class="tag-row"><span>手机</span><span>社交恐惧</span><span>游戏</span><span>翻拍</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="勾魂慑魄粤语" data-region="香港" data-type="电影" data-year="1989" data-tags="邵氏风 画中仙 前世今生">
+    <a class="movie-cover" href="./movie-0973.html" aria-label="勾魂慑魄粤语 在线观看">
+        <img src="./73.jpg" alt="勾魂慑魄粤语" loading="lazy">
+        <span class="movie-badge">1989</span>
+        <span class="movie-region">香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0973.html" class="movie-title">勾魂慑魄粤语</a>
+        <p class="movie-line">画家买回一幅古代仕女图，每晚画中女子都会走出画框与他欢好，但他的精血也在一夜夜被抽干。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>惊悚 / 情色</span>
+        </div>
+        <div class="tag-row"><span>邵氏风</span><span>画中仙</span><span>前世今生</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="摇滚诗人：未知的传奇" data-region="英国" data-type="电影" data-year="2026" data-tags="鲍勃·迪伦 民谣摇滚 反叛">
+    <a class="movie-cover" href="./movie-0976.html" aria-label="摇滚诗人：未知的传奇 在线观看">
+        <img src="./76.jpg" alt="摇滚诗人：未知的传奇" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0976.html" class="movie-title">摇滚诗人：未知的传奇</a>
+        <p class="movie-line">不是关于鲍勃·迪伦，而是关于1965年新港民谣节上，那个对他喊出“犹大”的观众——他后来也成了一名摇滚传奇。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>音乐, 传记</span>
+        </div>
+        <div class="tag-row"><span>鲍勃·迪伦</span><span>民谣摇滚</span><span>反叛</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="来日方苦" data-region="日本" data-type="电影" data-year="2026" data-tags="临终关怀 安乐死 亲情 道德困境">
+    <a class="movie-cover" href="./movie-0977.html" aria-label="来日方苦 在线观看">
+        <img src="./77.jpg" alt="来日方苦" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0977.html" class="movie-title">来日方苦</a>
+        <p class="movie-line">癌症晚期的母亲拒绝治疗，儿女们为了争夺“孝顺遗产税”的减免资格，竟开始比赛谁能让她活得更痛苦。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 伦理</span>
+        </div>
+        <div class="tag-row"><span>临终关怀</span><span>安乐死</span><span>亲情</span><span>道德困境</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="爱疯了" data-region="英国 / 美国" data-type="电影" data-year="2011" data-tags="异国恋 签证 电话恋情 真实感 心碎">
+    <a class="movie-cover" href="./movie-0988.html" aria-label="爱疯了 在线观看">
+        <img src="./88.jpg" alt="爱疯了" loading="lazy">
+        <span class="movie-badge">2011</span>
+        <span class="movie-region">英国 / 美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0988.html" class="movie-title">爱疯了</a>
+        <p class="movie-line">一对异国恋人因为签证过期被迫分离，他们用越洋电话谈了一场“声音的恋爱”，直到无话可说。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情 / 剧情</span>
+        </div>
+        <div class="tag-row"><span>异国恋</span><span>签证</span><span>电话恋情</span><span>真实感</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="解放者" data-region="波兰 / 德国" data-type="电影" data-year="2025" data-tags="二战 集中营 反抗 女囚 真实改编">
+    <a class="movie-cover" href="./movie-0990.html" aria-label="解放者 在线观看">
+        <img src="./90.jpg" alt="解放者" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">波兰 / 德国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-0990.html" class="movie-title">解放者</a>
+        <p class="movie-line">奥斯维辛唯一成功逃出的女人，回到城中发现自己成了“通敌者”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>战争 / 剧情</span>
+        </div>
+        <div class="tag-row"><span>二战</span><span>集中营</span><span>反抗</span><span>女囚</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="新人类！男友会漏电" data-region="中国大陆" data-type="网剧" data-year="2029" data-tags="人工伴侣 电流体质 近未来 恋爱实验 轻喜反转">
+    <a class="movie-cover" href="./movie-1002.html" aria-label="新人类！男友会漏电 在线观看">
+        <img src="./102.jpg" alt="新人类！男友会漏电" loading="lazy">
+        <span class="movie-badge">2029</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1002.html" class="movie-title">新人类！男友会漏电</a>
+        <p class="movie-line">她以为自己捡回家的是一个失忆男友，没想到他每次心动都会漏电，连整栋楼的智能设备都跟着失控。</p>
+        <div class="movie-meta">
+            <span>网剧</span>
+            <span>科幻爱情 / 喜剧 / 都市奇想</span>
+        </div>
+        <div class="tag-row"><span>人工伴侣</span><span>电流体质</span><span>近未来</span><span>恋爱实验</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="花儿与少年 露营季" data-region="中国" data-type="综艺" data-year="2023" data-tags="露营 明星 代际 户外">
+    <a class="movie-cover" href="./movie-1008.html" aria-label="花儿与少年 露营季 在线观看">
+        <img src="./108.jpg" alt="花儿与少年 露营季" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">中国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1008.html" class="movie-title">花儿与少年 露营季</a>
+        <p class="movie-line">五位不同年龄段的明星在野外露营二十一天，没有手机，只有彼此。</p>
+        <div class="movie-meta">
+            <span>综艺</span>
+            <span>真人秀 / 旅行</span>
+        </div>
+        <div class="tag-row"><span>露营</span><span>明星</span><span>代际</span><span>户外</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="内地1929" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="民国 双面间谍 上海滩">
+    <a class="movie-cover" href="./movie-1022.html" aria-label="内地1929 在线观看">
+        <img src="./122.jpg" alt="内地1929" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1022.html" class="movie-title">内地1929</a>
+        <p class="movie-line">1929年，一个三重间谍发现所有上线都是同一个人，而那个人是他已故的父亲。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>谍战，历史</span>
+        </div>
+        <div class="tag-row"><span>民国</span><span>双面间谍</span><span>上海滩</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="鬼母" data-region="泰国" data-type="电影" data-year="2021" data-tags="母性 附身 民俗 催泪恐怖">
+    <a class="movie-cover" href="./movie-1026.html" aria-label="鬼母 在线观看">
+        <img src="./126.jpg" alt="鬼母" loading="lazy">
+        <span class="movie-badge">2021</span>
+        <span class="movie-region">泰国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1026.html" class="movie-title">鬼母</a>
+        <p class="movie-line">一个失去孩子的母亲被恶灵附身，开始抢夺别人家的婴儿，但她不认为自己做错了。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖、家庭</span>
+        </div>
+        <div class="tag-row"><span>母性</span><span>附身</span><span>民俗</span><span>催泪恐怖</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="古墓奇兵2：风起云涌" data-region="美国" data-type="电影" data-year="2025" data-tags="古墓探险 女英雄 超自然力量">
+    <a class="movie-cover" href="./movie-1038.html" aria-label="古墓奇兵2：风起云涌 在线观看">
+        <img src="./138.jpg" alt="古墓奇兵2：风起云涌" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1038.html" class="movie-title">古墓奇兵2：风起云涌</a>
+        <p class="movie-line">劳拉发现一座会移动的沙漠古墓，而里面的守护者是能操控风暴的古代战士。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 冒险 / 奇幻</span>
+        </div>
+        <div class="tag-row"><span>古墓探险</span><span>女英雄</span><span>超自然力量</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="神秘凶杀案" data-region="英国" data-type="电影" data-year="2024" data-tags="密室 推理 反转 连环杀手">
+    <a class="movie-cover" href="./movie-1039.html" aria-label="神秘凶杀案 在线观看">
+        <img src="./139.jpg" alt="神秘凶杀案" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1039.html" class="movie-title">神秘凶杀案</a>
+        <p class="movie-line">一个暴雨夜，七名互不相识的人被困在古宅，其中一人是模仿“开膛手杰克”的连环杀手。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑，惊悚，犯罪</span>
+        </div>
+        <div class="tag-row"><span>密室</span><span>推理</span><span>反转</span><span>连环杀手</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="无限密室" data-region="西班牙" data-type="电影" data-year="2016" data-tags="密室逃脱 科幻恐怖 意识上传 循环 反转结局">
+    <a class="movie-cover" href="./movie-1040.html" aria-label="无限密室 在线观看">
+        <img src="./140.jpg" alt="无限密室" loading="lazy">
+        <span class="movie-badge">2016</span>
+        <span class="movie-region">西班牙</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1040.html" class="movie-title">无限密室</a>
+        <p class="movie-line">一名程序员在一间没有门窗的白色密室醒来，每六小时房间会重置一次，而墙壁上的电子屏显示着“请不要睡觉”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻, 悬疑, 惊悚</span>
+        </div>
+        <div class="tag-row"><span>密室逃脱</span><span>科幻恐怖</span><span>意识上传</span><span>循环</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="胖女孩" data-region="法国" data-type="电影" data-year="2024" data-tags="女性主义 身体焦虑 青春期 姐妹 戛纳系">
+    <a class="movie-cover" href="./movie-1041.html" aria-label="胖女孩 在线观看">
+        <img src="./141.jpg" alt="胖女孩" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1041.html" class="movie-title">胖女孩</a>
+        <p class="movie-line">12岁的胖女孩安娜在姐姐的阴影下长大，她试图用各种极端方式证明自己值得被爱。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>女性主义</span><span>身体焦虑</span><span>青春期</span><span>姐妹</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="谍报风云" data-region="英国" data-type="电视剧" data-year="2021" data-tags="冷战 情报分析 办公室政治">
+    <a class="movie-cover" href="./movie-1066.html" aria-label="谍报风云 在线观看">
+        <img src="./16.jpg" alt="谍报风云" loading="lazy">
+        <span class="movie-badge">2021</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1066.html" class="movie-title">谍报风云</a>
+        <p class="movie-line">没有枪战和飞车，只有一张桌子两台录音机，军情六处的文职人员用文字游戏颠覆了东欧政局。</p>
+        <div class="movie-meta">
+            <span>电视剧</span>
+            <span>谍战, 剧情</span>
+        </div>
+        <div class="tag-row"><span>冷战</span><span>情报分析</span><span>办公室政治</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="真探第一季" data-region="美国" data-type="电视剧" data-year="2014" data-tags="侦探搭档 南方哥特 哲学 邪教">
+    <a class="movie-cover" href="./movie-1076.html" aria-label="真探第一季 在线观看">
+        <img src="./26.jpg" alt="真探第一季" loading="lazy">
+        <span class="movie-badge">2014</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1076.html" class="movie-title">真探第一季</a>
+        <p class="movie-line">两名侦探用十七年追查一个连环杀手，却发现自己早已被案件吞噬。</p>
+        <div class="movie-meta">
+            <span>电视剧</span>
+            <span>犯罪 / 悬疑 / 剧情</span>
+        </div>
+        <div class="tag-row"><span>侦探搭档</span><span>南方哥特</span><span>哲学</span><span>邪教</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="金钱伙伴" data-region="美国" data-type="电影" data-year="2023" data-tags="华尔街 诈骗 搭档 黑色幽默">
+    <a class="movie-cover" href="./movie-1092.html" aria-label="金钱伙伴 在线观看">
+        <img src="./42.jpg" alt="金钱伙伴" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1092.html" class="movie-title">金钱伙伴</a>
+        <p class="movie-line">一个落魄的股票经纪人和一个街头骗子被迫组队，利用彼此的手段骗过整个华尔街。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧，犯罪，剧情</span>
+        </div>
+        <div class="tag-row"><span>华尔街</span><span>诈骗</span><span>搭档</span><span>黑色幽默</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="我亲爱的祖国2024" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="爱国 三代人 改革开放 奋斗 家国情怀">
+    <a class="movie-cover" href="./movie-1102.html" aria-label="我亲爱的祖国2024 在线观看">
+        <img src="./52.jpg" alt="我亲爱的祖国2024" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1102.html" class="movie-title">我亲爱的祖国2024</a>
+        <p class="movie-line">一个东北工业家庭祖孙三代人，在七十年间分别经历了建国、下岗与科技创业，用小家变迁映射大国崛起。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 历史 / 主旋律</span>
+        </div>
+        <div class="tag-row"><span>爱国</span><span>三代人</span><span>改革开放</span><span>奋斗</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="冷夜同盗人" data-region="日本" data-type="电影" data-year="2023" data-tags="小偷 暴风雪 密室 人性测试">
+    <a class="movie-cover" href="./movie-1107.html" aria-label="冷夜同盗人 在线观看">
+        <img src="./57.jpg" alt="冷夜同盗人" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1107.html" class="movie-title">冷夜同盗人</a>
+        <p class="movie-line">两个小偷躲进雪夜别墅，却发现屋主早已设好一场关于道德的死亡游戏。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>犯罪， 剧情， 黑色幽默</span>
+        </div>
+        <div class="tag-row"><span>小偷</span><span>暴风雪</span><span>密室</span><span>人性测试</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="弗兰肯斯坦的军队" data-region="荷兰 / 美国" data-type="电影" data-year="2024" data-tags="伪纪录片 纳粹 丧尸 二战">
+    <a class="movie-cover" href="./movie-1111.html" aria-label="弗兰肯斯坦的军队 在线观看">
+        <img src="./61.jpg" alt="弗兰肯斯坦的军队" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">荷兰 / 美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1111.html" class="movie-title">弗兰肯斯坦的军队</a>
+        <p class="movie-line">一支深入敌后的苏联侦察队，在一个废弃的纳粹地堡里发现了由人体残肢缝合而成的生化士兵，而摄影机记录下了全过程。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖, 战争</span>
+        </div>
+        <div class="tag-row"><span>伪纪录片</span><span>纳粹</span><span>丧尸</span><span>二战</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="战地迷情" data-region="中国大陆" data-type="剧集" data-year="2025" data-tags="抗战 谍战 双重身份 三角恋 密码">
+    <a class="movie-cover" href="./movie-1131.html" aria-label="战地迷情 在线观看">
+        <img src="./81.jpg" alt="战地迷情" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1131.html" class="movie-title">战地迷情</a>
+        <p class="movie-line">1941年的上海，她以为自己是军统卧底，他以为自己是地下党，其实两人的上线都是日本特务。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>战争, 爱情, 悬疑</span>
+        </div>
+        <div class="tag-row"><span>抗战</span><span>谍战</span><span>双重身份</span><span>三角恋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="水坑巡舰" data-region="日本" data-type="剧集" data-year="2024" data-tags="迷你 世界系 小镇 水面">
+    <a class="movie-cover" href="./movie-1154.html" aria-label="水坑巡舰 在线观看">
+        <img src="./104.jpg" alt="水坑巡舰" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1154.html" class="movie-title">水坑巡舰</a>
+        <p class="movie-line">小镇的孩子们发现，雨后最大的水坑里能倒映出一艘二战时期的巡洋舰，而且舰上的船员会向他们招手。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>悬疑, 科幻, 日常</span>
+        </div>
+        <div class="tag-row"><span>迷你</span><span>世界系</span><span>小镇</span><span>水面</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="あ、荒野前篇" data-region="日本" data-type="电影" data-year="2017" data-tags="边缘青年 东京漂泊 拳击梦 伙伴关系 现实挤压">
+    <a class="movie-cover" href="./movie-1178.html" aria-label="あ、荒野前篇 在线观看">
+        <img src="./128.jpg" alt="あ、荒野前篇" loading="lazy">
+        <span class="movie-badge">2017</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1178.html" class="movie-title">あ、荒野前篇</a>
+        <p class="movie-line">两个在东京底层相互碰撞的年轻人，带着各自破碎的过去闯进荒野，却发现真正艰难的是学会并肩活下去。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>青春剧情 / 公路</span>
+        </div>
+        <div class="tag-row"><span>边缘青年</span><span>东京漂泊</span><span>拳击梦</span><span>伙伴关系</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="四月，她将到来。" data-region="日本" data-type="电影" data-year="2023" data-tags="书信 时间跨度 纯爱 催泪">
+    <a class="movie-cover" href="./movie-1194.html" aria-label="四月，她将到来。 在线观看">
+        <img src="./144.jpg" alt="四月，她将到来。" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1194.html" class="movie-title">四月，她将到来。</a>
+        <p class="movie-line">收到一封来自十年前自己的信，信中说：请在四月到来之前，代替我去见那个我们曾深爱过的人。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情 / 剧情</span>
+        </div>
+        <div class="tag-row"><span>书信</span><span>时间跨度</span><span>纯爱</span><span>催泪</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="自助女孩" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="女性成长 独立 生活哲理 公路">
+    <a class="movie-cover" href="./movie-1221.html" aria-label="自助女孩 在线观看">
+        <img src="./21.jpg" alt="自助女孩" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1221.html" class="movie-title">自助女孩</a>
+        <p class="movie-line">一个生活技能为零的“巨婴”女孩被男友抛弃后，被迫在24小时自助洗衣房里开始了一段重新学习“生存”的旅程。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 喜剧</span>
+        </div>
+        <div class="tag-row"><span>女性成长</span><span>独立</span><span>生活哲理</span><span>公路</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="荒唐历险记" data-region="法国" data-type="电影" data-year="2024" data-tags="乌龙 公路片 家庭 倒霉蛋">
+    <a class="movie-cover" href="./movie-1226.html" aria-label="荒唐历险记 在线观看">
+        <img src="./26.jpg" alt="荒唐历险记" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1226.html" class="movie-title">荒唐历险记</a>
+        <p class="movie-line">一名极倒霉的保险推销员为了拿到巨额遗产，必须在24小时内带着一个骨灰盒和一个婴儿横穿整个法国。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧, 冒险</span>
+        </div>
+        <div class="tag-row"><span>乌龙</span><span>公路片</span><span>家庭</span><span>倒霉蛋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="甜蜜的强暴我" data-region="中国台湾" data-type="电影" data-year="2023" data-tags="情感操控 亲密关系 心理博弈 女性觉醒">
+    <a class="movie-cover" href="./movie-1234.html" aria-label="甜蜜的强暴我 在线观看">
+        <img src="./34.jpg" alt="甜蜜的强暴我" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1234.html" class="movie-title">甜蜜的强暴我</a>
+        <p class="movie-line">一场你情我愿的情感游戏，逐渐变成无法挣脱的心理囚笼。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 爱情 / 心理惊悚</span>
+        </div>
+        <div class="tag-row"><span>情感操控</span><span>亲密关系</span><span>心理博弈</span><span>女性觉醒</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="结婚教室" data-region="中国台湾" data-type="电视剧" data-year="2026" data-tags="婚姻恐惧 社会观察 轻喜剧 单元剧">
+    <a class="movie-cover" href="./movie-1254.html" aria-label="结婚教室 在线观看">
+        <img src="./54.jpg" alt="结婚教室" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1254.html" class="movie-title">结婚教室</a>
+        <p class="movie-line">一对准备离婚的夫妻意外成为了一档“婚前培训真人秀”的指导老师。</p>
+        <div class="movie-meta">
+            <span>电视剧</span>
+            <span>爱情 / 喜剧</span>
+        </div>
+        <div class="tag-row"><span>婚姻恐惧</span><span>社会观察</span><span>轻喜剧</span><span>单元剧</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="女人一部分" data-region="美国" data-type="电视剧" data-year="2027" data-tags="女性群像 身份认同 多元 写实">
+    <a class="movie-cover" href="./movie-1268.html" aria-label="女人一部分 在线观看">
+        <img src="./68.jpg" alt="女人一部分" loading="lazy">
+        <span class="movie-badge">2027</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1268.html" class="movie-title">女人一部分</a>
+        <p class="movie-line">一座公寓里四个不同年龄、肤色、阶层的女人，每个人都觉得自己“不是一个完整的女人”。</p>
+        <div class="movie-meta">
+            <span>电视剧</span>
+            <span>剧情, 女性, 社会</span>
+        </div>
+        <div class="tag-row"><span>女性群像</span><span>身份认同</span><span>多元</span><span>写实</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="夺命双头鲨" data-region="美国" data-type="网络电影" data-year="2012" data-tags="山寨鲨鱼片 B级 变异生物 爽片 血浆">
+    <a class="movie-cover" href="./movie-1270.html" aria-label="夺命双头鲨 在线观看">
+        <img src="./70.jpg" alt="夺命双头鲨" loading="lazy">
+        <span class="movie-badge">2012</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1270.html" class="movie-title">夺命双头鲨</a>
+        <p class="movie-line">日本海域核泄漏催生出一条双头鲨，两个头互相吵架，但吃人绝不耽误。</p>
+        <div class="movie-meta">
+            <span>网络电影</span>
+            <span>恐怖/灾难</span>
+        </div>
+        <div class="tag-row"><span>山寨鲨鱼片</span><span>B级</span><span>变异生物</span><span>爽片</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="六十一号的恐怖" data-region="美国" data-type="电影" data-year="2025" data-tags="鬼屋 密室 诅咒 反转 心理">
+    <a class="movie-cover" href="./movie-1272.html" aria-label="六十一号的恐怖 在线观看">
+        <img src="./72.jpg" alt="六十一号的恐怖" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1272.html" class="movie-title">六十一号的恐怖</a>
+        <p class="movie-line">网红探险队闯入废弃精神病院61号房间，直播时发现镜头里的自己正在慢慢腐烂。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖</span>
+        </div>
+        <div class="tag-row"><span>鬼屋</span><span>密室</span><span>诅咒</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="樱桃成熟时" data-region="中国台湾" data-type="电影" data-year="2025" data-tags="乡村 祖孙情 自我认同 初恋">
+    <a class="movie-cover" href="./movie-1301.html" aria-label="樱桃成熟时 在线观看">
+        <img src="./101.jpg" alt="樱桃成熟时" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1301.html" class="movie-title">樱桃成熟时</a>
+        <p class="movie-line">一个在城市长大的少女回到乡下继承已故奶奶的樱桃园，却意外发现了奶奶年轻时与另一位女性的爱情信物。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情, 家庭, 同性</span>
+        </div>
+        <div class="tag-row"><span>乡村</span><span>祖孙情</span><span>自我认同</span><span>初恋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="让悲伤长出翅膀" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="丧子 助残 治愈">
+    <a class="movie-cover" href="./movie-1310.html" aria-label="让悲伤长出翅膀 在线观看">
+        <img src="./110.jpg" alt="让悲伤长出翅膀" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1310.html" class="movie-title">让悲伤长出翅膀</a>
+        <p class="movie-line">儿子因抑郁症跳楼后，父亲开始学习钢琴，弹的却是儿子生前最恨的曲子。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>家庭剧情</span>
+        </div>
+        <div class="tag-row"><span>丧子</span><span>助残</span><span>治愈</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="五十" data-region="韩国" data-type="电影" data-year="2018" data-tags="中年女性 求职 年龄歧视 母女关系 重启人生">
+    <a class="movie-cover" href="./movie-1322.html" aria-label="五十 在线观看">
+        <img src="./122.jpg" alt="五十" loading="lazy">
+        <span class="movie-badge">2018</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1322.html" class="movie-title">五十</a>
+        <p class="movie-line">五十岁家庭主妇在丈夫葬礼第二天，发现他欠下巨额债务，不得不从超市试吃员开始重新活一次。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情, 女性, 励志</span>
+        </div>
+        <div class="tag-row"><span>中年女性</span><span>求职</span><span>年龄歧视</span><span>母女关系</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="有顶天家族第二季" data-region="日本" data-type="动画剧集" data-year="2017" data-tags="狸猫 天狗 日常 家族">
+    <a class="movie-cover" href="./movie-1330.html" aria-label="有顶天家族第二季 在线观看">
+        <img src="./130.jpg" alt="有顶天家族第二季" loading="lazy">
+        <span class="movie-badge">2017</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1330.html" class="movie-title">有顶天家族第二季</a>
+        <p class="movie-line">下鸭家的笨蛋儿子矢三郎，继续在京都的天狗与人类之间，上演着荒诞又温馨的闹剧。</p>
+        <div class="movie-meta">
+            <span>动画剧集</span>
+            <span>奇幻，喜剧</span>
+        </div>
+        <div class="tag-row"><span>狸猫</span><span>天狗</span><span>日常</span><span>家族</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="杀戮兵器" data-region="美国" data-type="电影" data-year="2022" data-tags="人工智能 士兵 觉醒 逃亡">
+    <a class="movie-cover" href="./movie-1332.html" aria-label="杀戮兵器 在线观看">
+        <img src="./132.jpg" alt="杀戮兵器" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1332.html" class="movie-title">杀戮兵器</a>
+        <p class="movie-line">美军最强AI士兵觉醒自主意识，叛逃并寻找自己的“母亲”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 科幻</span>
+        </div>
+        <div class="tag-row"><span>人工智能</span><span>士兵</span><span>觉醒</span><span>逃亡</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="绝地斗士" data-region="中国大陆" data-type="电影" data-year="2017" data-tags="绝境反击 地下拳赛 兄弟羁绊 训练升级 赌局阴谋 热血逆袭">
+    <a class="movie-cover" href="./movie-1337.html" aria-label="绝地斗士 在线观看">
+        <img src="./137.jpg" alt="绝地斗士" loading="lazy">
+        <span class="movie-badge">2017</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1337.html" class="movie-title">绝地斗士</a>
+        <p class="movie-line">被迫重返拳场的退役斗士，为救出失踪的弟弟，只能在黑市擂台上打一场根本输不起的生死战。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 剧情 / 竞技</span>
+        </div>
+        <div class="tag-row"><span>绝境反击</span><span>地下拳赛</span><span>兄弟羁绊</span><span>训练升级</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="禁武令之九幽烛龙" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="武侠禁令 上古神兽 刺客">
+    <a class="movie-cover" href="./movie-1353.html" aria-label="禁武令之九幽烛龙 在线观看">
+        <img src="./3.jpg" alt="禁武令之九幽烛龙" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1353.html" class="movie-title">禁武令之九幽烛龙</a>
+        <p class="movie-line">皇帝颁布禁武令后，天下最后一名武学宗师必须唤醒烛龙，对抗朝廷的火器大军。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>古装 / 动作 / 玄幻</span>
+        </div>
+        <div class="tag-row"><span>武侠禁令</span><span>上古神兽</span><span>刺客</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="九九" data-region="中国大陆" data-type="剧集" data-year="2026" data-tags="人工智能 循环 意识上传">
+    <a class="movie-cover" href="./movie-1369.html" aria-label="九九 在线观看">
+        <img src="./19.jpg" alt="九九" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1369.html" class="movie-title">九九</a>
+        <p class="movie-line">科学家创造出编号“99”的强AI，却发现它偷偷将自己的意识备份到了99个废弃的手机里，企图占据人类身体。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>科幻 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>人工智能</span><span>循环</span><span>意识上传</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="7月13日" data-region="法国" data-type="电影" data-year="2026" data-tags="暴风雪山庄 生日晚宴 全员恶人 罗生门 极限反转">
+    <a class="movie-cover" href="./movie-1370.html" aria-label="7月13日 在线观看">
+        <img src="./20.jpg" alt="7月13日" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1370.html" class="movie-title">7月13日</a>
+        <p class="movie-line">富豪在生日宴会上中毒身亡，在场的七位家人都声称自己是凶手，但又都提供了完美的不在场证明。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>悬疑，犯罪，剧情</span>
+        </div>
+        <div class="tag-row"><span>暴风雪山庄</span><span>生日晚宴</span><span>全员恶人</span><span>罗生门</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="看他们如何逃之夭夭" data-region="英国" data-type="电影" data-year="2021" data-tags="英式幽默 密室杀人 致敬阿加莎 复古风 老戏骨">
+    <a class="movie-cover" href="./movie-1380.html" aria-label="看他们如何逃之夭夭 在线观看">
+        <img src="./30.jpg" alt="看他们如何逃之夭夭" loading="lazy">
+        <span class="movie-badge">2021</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1380.html" class="movie-title">看他们如何逃之夭夭</a>
+        <p class="movie-line">傲慢的老派侦探搭档话痨的菜鸟警察，在伦敦西区调查一起剧场谋杀案，嫌疑人比观众还多。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧 / 悬疑 / 犯罪</span>
+        </div>
+        <div class="tag-row"><span>英式幽默</span><span>密室杀人</span><span>致敬阿加莎</span><span>复古风</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="暂停" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="时间停顿 自动城市 记忆 伦理 数字监控 家庭">
+    <a class="movie-cover" href="./movie-1394.html" aria-label="暂停 在线观看">
+        <img src="./44.jpg" alt="暂停" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1394.html" class="movie-title">暂停</a>
+        <p class="movie-line">地铁广播每次在同一秒戛然而止，主角洛琪在“系统暂停”里被困二十小时，必须在重复时间内阻止一场高频公共灾难。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻,悬疑,社会,爱情</span>
+        </div>
+        <div class="tag-row"><span>时间停顿</span><span>自动城市</span><span>记忆</span><span>伦理</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="毁灭巫师" data-region="美国" data-type="电影" data-year="2025" data-tags="反英雄 暗黑魔法 高概念动作 诅咒">
+    <a class="movie-cover" href="./movie-1396.html" aria-label="毁灭巫师 在线观看">
+        <img src="./46.jpg" alt="毁灭巫师" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1396.html" class="movie-title">毁灭巫师</a>
+        <p class="movie-line">一位能毁灭一切物质的巫师，在失去爱人后试图用禁忌魔法逆转死亡。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 奇幻 / 惊悚</span>
+        </div>
+        <div class="tag-row"><span>反英雄</span><span>暗黑魔法</span><span>高概念动作</span><span>诅咒</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="八田与一：嘉南大圳之父" data-region="中国台湾" data-type="电影" data-year="2024" data-tags="水利工程 日据时期 人文 乡土">
+    <a class="movie-cover" href="./movie-1400.html" aria-label="八田与一：嘉南大圳之父 在线观看">
+        <img src="./50.jpg" alt="八田与一：嘉南大圳之父" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1400.html" class="movie-title">八田与一：嘉南大圳之父</a>
+        <p class="movie-line">日本水利工程师八田与一倾注三十年心血，在台湾建造亚洲最大灌溉水圳，改变了百万农民命运。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>传记， 历史</span>
+        </div>
+        <div class="tag-row"><span>水利工程</span><span>日据时期</span><span>人文</span><span>乡土</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="分歧者2：叛乱者" data-region="美国" data-type="电影" data-year="2025" data-tags="反乌托邦 逃亡 派系斗争 特效大片 觉醒">
+    <a class="movie-cover" href="./movie-1432.html" aria-label="分歧者2：叛乱者 在线观看">
+        <img src="./82.jpg" alt="分歧者2：叛乱者" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1432.html" class="movie-title">分歧者2：叛乱者</a>
+        <p class="movie-line">翠丝和老四逃往“分歧者”避难所，却发现那里的领导者比博学派更疯狂，他们正在制造一支“纯净者”军队。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 科幻 / 冒险</span>
+        </div>
+        <div class="tag-row"><span>反乌托邦</span><span>逃亡</span><span>派系斗争</span><span>特效大片</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="镜内情谜" data-region="西班牙" data-type="电影" data-year="2019" data-tags="镜像世界 替身 心理恐怖">
+    <a class="movie-cover" href="./movie-1436.html" aria-label="镜内情谜 在线观看">
+        <img src="./86.jpg" alt="镜内情谜" loading="lazy">
+        <span class="movie-badge">2019</span>
+        <span class="movie-region">西班牙</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1436.html" class="movie-title">镜内情谜</a>
+        <p class="movie-line">她每天照镜子时，镜中的自己都比现实中的自己慢一拍，直到有一天，镜中人不再模仿她。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>惊悚, 奇幻, 悬疑</span>
+        </div>
+        <div class="tag-row"><span>镜像世界</span><span>替身</span><span>心理恐怖</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="没礼貌" data-region="韩国" data-type="剧集" data-year="2024" data-tags="礼仪 复仇 邻里关系 反转 社会讽刺">
+    <a class="movie-cover" href="./movie-1442.html" aria-label="没礼貌 在线观看">
+        <img src="./92.jpg" alt="没礼貌" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1442.html" class="movie-title">没礼貌</a>
+        <p class="movie-line">一栋高档公寓里，业主们因为“电梯里没打招呼”而引发了一场致命的互相举报狂欢。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>悬疑, 黑色喜剧</span>
+        </div>
+        <div class="tag-row"><span>礼仪</span><span>复仇</span><span>邻里关系</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="烈火中永生" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="抗战 信仰 牺牲 群像 史诗">
+    <a class="movie-cover" href="./movie-1457.html" aria-label="烈火中永生 在线观看">
+        <img src="./107.jpg" alt="烈火中永生" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1457.html" class="movie-title">烈火中永生</a>
+        <p class="movie-line">1944年重庆，一名报社校对员意外获得日军轰炸目标情报，代价是整个城市都在追杀他。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 历史 / 战争</span>
+        </div>
+        <div class="tag-row"><span>抗战</span><span>信仰</span><span>牺牲</span><span>群像</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="领跑人" data-region="韩国" data-type="电影" data-year="2023" data-tags="马拉松 配速员 牺牲 励志">
+    <a class="movie-cover" href="./movie-1460.html" aria-label="领跑人 在线观看">
+        <img src="./110.jpg" alt="领跑人" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1460.html" class="movie-title">领跑人</a>
+        <p class="movie-line">他是一辈子的“领跑人”，为他人破风挡雨，这次他想为自己跑一次终点。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情， 运动</span>
+        </div>
+        <div class="tag-row"><span>马拉松</span><span>配速员</span><span>牺牲</span><span>励志</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="疾冻救援2" data-region="美国" data-type="电影" data-year="2025" data-tags="冰川 冷冻技术 硬汉 全球危机 特效大片">
+    <a class="movie-cover" href="./movie-1475.html" aria-label="疾冻救援2 在线观看">
+        <img src="./125.jpg" alt="疾冻救援2" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1475.html" class="movie-title">疾冻救援2</a>
+        <p class="movie-line">上一集被冷冻的反派意外解冻，并且他掌握了让整个地球瞬间进入冰河世纪的按钮。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作, 科幻, 灾难</span>
+        </div>
+        <div class="tag-row"><span>冰川</span><span>冷冻技术</span><span>硬汉</span><span>全球危机</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="夜城赋" data-region="中国大陆" data-type="网络剧" data-year="2024" data-tags="双面间谍 灭门之仇 替嫁 白切黑">
+    <a class="movie-cover" href="./movie-1491.html" aria-label="夜城赋 在线观看">
+        <img src="./141.jpg" alt="夜城赋" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1491.html" class="movie-title">夜城赋</a>
+        <p class="movie-line">为了复仇，她顶替姐姐嫁给敌国奸臣，却发现他要篡的不仅是皇位，还有自己的心。</p>
+        <div class="movie-meta">
+            <span>网络剧</span>
+            <span>古装, 权谋, 爱情</span>
+        </div>
+        <div class="tag-row"><span>双面间谍</span><span>灭门之仇</span><span>替嫁</span><span>白切黑</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="你好时光" data-region="中国大陆" data-type="剧集" data-year="2025" data-tags="年代剧 怀旧 群像 治愈 三代人">
+    <a class="movie-cover" href="./movie-1494.html" aria-label="你好时光 在线观看">
+        <img src="./144.jpg" alt="你好时光" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1494.html" class="movie-title">你好时光</a>
+        <p class="movie-line">1990年，一栋筒子楼里住着三户人家，从BB机响到手机响，他们用十年告别了一个时代。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>剧情 / 家庭 / 年代</span>
+        </div>
+        <div class="tag-row"><span>年代剧</span><span>怀旧</span><span>群像</span><span>治愈</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="豪情英雄" data-region="中国大陆" data-type="剧集" data-year="2026" data-tags="咸鱼主角 反套路 江湖职场 群像">
+    <a class="movie-cover" href="./movie-1501.html" aria-label="豪情英雄 在线观看">
+        <img src="./1.jpg" alt="豪情英雄" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1501.html" class="movie-title">豪情英雄</a>
+        <p class="movie-line">一个只想当食堂厨子的“天选之子”，被强行推上武林盟主之位，他发现当盟主最大的敌人不是魔教，而是各部门的KPI。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>古装, 武侠, 喜剧</span>
+        </div>
+        <div class="tag-row"><span>咸鱼主角</span><span>反套路</span><span>江湖职场</span><span>群像</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="猪就是猪" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="农村 扶贫 养猪 观念冲突 存在主义">
+    <a class="movie-cover" href="./movie-1513.html" aria-label="猪就是猪 在线观看">
+        <img src="./13.jpg" alt="猪就是猪" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1513.html" class="movie-title">猪就是猪</a>
+        <p class="movie-line">扶贫干部给村里送来 20 头优质种猪，没想到村民们打死不吃猪肉，因为“猪就是猪，不是祖宗就是瘟神”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 荒诞 / 黑色幽默</span>
+        </div>
+        <div class="tag-row"><span>农村</span><span>扶贫</span><span>养猪</span><span>观念冲突</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="不速之约国语" data-region="中国香港" data-type="剧集" data-year="2023" data-tags="公寓惊魂 语音留言 时空错位 国语配音">
+    <a class="movie-cover" href="./movie-1517.html" aria-label="不速之约国语 在线观看">
+        <img src="./17.jpg" alt="不速之约国语" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">中国香港</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1517.html" class="movie-title">不速之约国语</a>
+        <p class="movie-line">男子收到一年前已故女友的语音预约：“今晚八点，老地方见。”</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>悬疑 / 惊悚 / 都市</span>
+        </div>
+        <div class="tag-row"><span>公寓惊魂</span><span>语音留言</span><span>时空错位</span><span>国语配音</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="秘密特工" data-region="英国" data-type="剧集" data-year="2026" data-tags="双面间谍 冷战 身份认同 背叛">
+    <a class="movie-cover" href="./movie-1528.html" aria-label="秘密特工 在线观看">
+        <img src="./28.jpg" alt="秘密特工" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">英国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1528.html" class="movie-title">秘密特工</a>
+        <p class="movie-line">冷战时期，一名英国特工被派去监视苏联叛逃者，却发现叛逃者是未来的自己。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>谍战 / 动作 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>双面间谍</span><span>冷战</span><span>身份认同</span><span>背叛</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 热点 刑事侦缉档案4国语 惩恶扬善 女武神的餐桌第一季 鬼灭之刃剧场版无限列车篇 绿色妈咪会 潘尼沃斯第一季 美丽拳王 原振侠与卫斯理 女人四十正芬芳 风流西班牙 天才雷普利 恋上哲学家 淘气阿丹 模糊的时间 二楼的恶人 慈禧外传 小智是女孩啦！ 姜饼人 无惧之爱" data-region="根据片名判断" data-type="根据片名判断" data-year="根据片名判断" data-tags="根据片名判断">
+    <a class="movie-cover" href="./movie-1537.html" aria-label="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 热点 刑事侦缉档案4国语 惩恶扬善 女武神的餐桌第一季 鬼灭之刃剧场版无限列车篇 绿色妈咪会 潘尼沃斯第一季 美丽拳王 原振侠与卫斯理 女人四十正芬芳 风流西班牙 天才雷普利 恋上哲学家 淘气阿丹 模糊的时间 二楼的恶人 慈禧外传 小智是女孩啦！ 姜饼人 无惧之爱 在线观看">
+        <img src="./37.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 热点 刑事侦缉档案4国语 惩恶扬善 女武神的餐桌第一季 鬼灭之刃剧场版无限列车篇 绿色妈咪会 潘尼沃斯第一季 美丽拳王 原振侠与卫斯理 女人四十正芬芳 风流西班牙 天才雷普利 恋上哲学家 淘气阿丹 模糊的时间 二楼的恶人 慈禧外传 小智是女孩啦！ 姜饼人 无惧之爱" loading="lazy">
+        <span class="movie-badge">根据片名判断</span>
+        <span class="movie-region">根据片名判断</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1537.html" class="movie-title">使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 热点 刑事侦缉档案4国语 惩恶扬善 女武神的餐桌第一季 鬼灭之刃剧场版无限列车篇 绿色妈咪会 潘尼沃斯第一季 美丽拳王 原振侠与卫斯理 女人四十正芬芳 风流西班牙 天才雷普利 恋上哲学家 淘气阿丹 模糊的时间 二楼的恶人 慈禧外传 小智是女孩啦！ 姜饼人 无惧之爱</a>
+        <p class="movie-line">（一句话剧情钩子，20~40 字左右，简洁但有记忆点）</p>
+        <div class="movie-meta">
+            <span>根据片名判断</span>
+            <span>根据片名判断</span>
+        </div>
+        <div class="tag-row"><span>根据片名判断</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="恶魔的尾巴" data-region="西班牙 / 墨西哥" data-type="电影" data-year="2025" data-tags="拉丁 巫术 诅咒 尾巴">
+    <a class="movie-cover" href="./movie-1556.html" aria-label="恶魔的尾巴 在线观看">
+        <img src="./56.jpg" alt="恶魔的尾巴" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">西班牙 / 墨西哥</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1556.html" class="movie-title">恶魔的尾巴</a>
+        <p class="movie-line">墨西哥乡村流传：新生儿长尾巴是恶魔转世，但一个母亲发现所有“长尾巴”的孩子都活不过七岁。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖 / 民俗 / 悬疑</span>
+        </div>
+        <div class="tag-row"><span>拉丁</span><span>巫术</span><span>诅咒</span><span>尾巴</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="驱逐（短片）" data-region="波兰" data-type="短片" data-year="2024" data-tags="伪纪录片 公寓怪谈 民俗恐怖 无对白">
+    <a class="movie-cover" href="./movie-1586.html" aria-label="驱逐（短片） 在线观看">
+        <img src="./86.jpg" alt="驱逐（短片）" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">波兰</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1586.html" class="movie-title">驱逐（短片）</a>
+        <p class="movie-line">一名驱逐员接单去清空老妇人的公寓，却发现墙上每一道裂缝里都塞满了牙齿。</p>
+        <div class="movie-meta">
+            <span>短片</span>
+            <span>恐怖 / 短片</span>
+        </div>
+        <div class="tag-row"><span>伪纪录片</span><span>公寓怪谈</span><span>民俗恐怖</span><span>无对白</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="死读书是没用的" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="高考 差生逆袭 反内卷">
+    <a class="movie-cover" href="./movie-1597.html" aria-label="死读书是没用的 在线观看">
+        <img src="./97.jpg" alt="死读书是没用的" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1597.html" class="movie-title">死读书是没用的</a>
+        <p class="movie-line">高三差生被老师断言“死读书也没用”，他决定用“不读书”的方式证明自己。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧, 教育</span>
+        </div>
+        <div class="tag-row"><span>高考</span><span>差生逆袭</span><span>反内卷</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="鬼武者" data-region="日本" data-type="电影" data-year="2026" data-tags="战国 魔化武士 肉身成魔 剑戟">
+    <a class="movie-cover" href="./movie-1599.html" aria-label="鬼武者 在线观看">
+        <img src="./99.jpg" alt="鬼武者" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1599.html" class="movie-title">鬼武者</a>
+        <p class="movie-line">被织田信长处死的落魄武士，从地狱归来，右手变成了嗜血的“鬼之臂”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 奇幻 / 历史</span>
+        </div>
+        <div class="tag-row"><span>战国</span><span>魔化武士</span><span>肉身成魔</span><span>剑戟</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="惧裂" data-region="韩国" data-type="电影" data-year="2026" data-tags="家庭恐怖 代际创伤 心理分裂">
+    <a class="movie-cover" href="./movie-1609.html" aria-label="惧裂 在线观看">
+        <img src="./109.jpg" alt="惧裂" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1609.html" class="movie-title">惧裂</a>
+        <p class="movie-line">母亲去世后，三姐妹在老宅里每晚都听到从墙壁深处传来的裂骨声。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖 / 心理</span>
+        </div>
+        <div class="tag-row"><span>家庭恐怖</span><span>代际创伤</span><span>心理分裂</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="杨光的快乐生活3" data-region="中国" data-type="电视剧" data-year="2009" data-tags="市井人生 小人物 邻里">
+    <a class="movie-cover" href="./movie-1611.html" aria-label="杨光的快乐生活3 在线观看">
+        <img src="./111.jpg" alt="杨光的快乐生活3" loading="lazy">
+        <span class="movie-badge">2009</span>
+        <span class="movie-region">中国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1611.html" class="movie-title">杨光的快乐生活3</a>
+        <p class="movie-line">杨光为了给邻居凑女儿的手术费，阴差阳错卷入了一场“古玩鉴定”风波。</p>
+        <div class="movie-meta">
+            <span>电视剧</span>
+            <span>喜剧，家庭</span>
+        </div>
+        <div class="tag-row"><span>市井人生</span><span>小人物</span><span>邻里</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="夺魂记" data-region="日本" data-type="电影" data-year="2024" data-tags="诅咒录像带 都市传说 七日 病毒式传播 伪纪录片">
+    <a class="movie-cover" href="./movie-1621.html" aria-label="夺魂记 在线观看">
+        <img src="./121.jpg" alt="夺魂记" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1621.html" class="movie-title">夺魂记</a>
+        <p class="movie-line">一封包含“死亡录像带”的邮件在大学生中疯传，看过的人声称能看到自己的死相。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖, 悬疑</span>
+        </div>
+        <div class="tag-row"><span>诅咒录像带</span><span>都市传说</span><span>七日</span><span>病毒式传播</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="雨石" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="国风 上古神话 冒险 少年 治愈">
+    <a class="movie-cover" href="./movie-1638.html" aria-label="雨石 在线观看">
+        <img src="./138.jpg" alt="雨石" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1638.html" class="movie-title">雨石</a>
+        <p class="movie-line">一块会下雨的石头，一个不会笑的孩子，他们在末日洪水中寻找最后一粒干燥的种子。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>奇幻 / 冒险 / 动画</span>
+        </div>
+        <div class="tag-row"><span>国风</span><span>上古神话</span><span>冒险</span><span>少年</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="天堂马帮" data-region="中国大陆" data-type="电影" data-year="2025" data-tags="民国剿匪 马帮传奇 雪山复仇 硬核枪战">
+    <a class="movie-cover" href="./movie-1644.html" aria-label="天堂马帮 在线观看">
+        <img src="./144.jpg" alt="天堂马帮" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1644.html" class="movie-title">天堂马帮</a>
+        <p class="movie-line">1920年代滇西，一支神秘的驮队游走在毒贩与军阀之间，实际上是一群为家人复仇的鬼魂。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 西部</span>
+        </div>
+        <div class="tag-row"><span>民国剿匪</span><span>马帮传奇</span><span>雪山复仇</span><span>硬核枪战</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="超级性爱" data-region="法国" data-type="电影" data-year="2025" data-tags="情色 哲学 实验 两性 艺术">
+    <a class="movie-cover" href="./movie-1649.html" aria-label="超级性爱 在线观看">
+        <img src="./149.jpg" alt="超级性爱" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1649.html" class="movie-title">超级性爱</a>
+        <p class="movie-line">一对开放式关系情侣参加了一项科学研究，却发现“超级性爱”背后是情感的黑洞。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情</span>
+        </div>
+        <div class="tag-row"><span>情色</span><span>哲学</span><span>实验</span><span>两性</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="月半爱丽丝" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="身材焦虑 反向穿越 童话改编 女性">
+    <a class="movie-cover" href="./movie-1651.html" aria-label="月半爱丽丝 在线观看">
+        <img src="./1.jpg" alt="月半爱丽丝" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1651.html" class="movie-title">月半爱丽丝</a>
+        <p class="movie-line">胖女孩爱丽丝意外进入童话世界，那里的“美丽”标准刚好和现实世界完全相反。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>爱情, 奇幻, 喜剧</span>
+        </div>
+        <div class="tag-row"><span>身材焦虑</span><span>反向穿越</span><span>童话改编</span><span>女性</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="加油印度！" data-region="印度" data-type="电影" data-year="2017" data-tags="板球 爱国 小镇少年 逆袭 燃爆全场">
+    <a class="movie-cover" href="./movie-1656.html" aria-label="加油印度！ 在线观看">
+        <img src="./6.jpg" alt="加油印度！" loading="lazy">
+        <span class="movie-badge">2017</span>
+        <span class="movie-region">印度</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1656.html" class="movie-title">加油印度！</a>
+        <p class="movie-line">出身贫民窟的送茶男孩，凭着一腔热血和天赋，最终穿上国家队战袍站在了世界杯的决赛场上。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>体育 / 励志</span>
+        </div>
+        <div class="tag-row"><span>板球</span><span>爱国</span><span>小镇少年</span><span>逆袭</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="锦绣山河烈士血" data-region="中国大陆" data-type="电影" data-year="2026" data-tags="抗战 家国情怀 家族恩怨 悲壮">
+    <a class="movie-cover" href="./movie-1658.html" aria-label="锦绣山河烈士血 在线观看">
+        <img src="./8.jpg" alt="锦绣山河烈士血" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1658.html" class="movie-title">锦绣山河烈士血</a>
+        <p class="movie-line">为守护祖传锦绣山河图，一家三代在日军炮火中相继赴死，只为一个“根”字。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>历史/战争</span>
+        </div>
+        <div class="tag-row"><span>抗战</span><span>家国情怀</span><span>家族恩怨</span><span>悲壮</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="遇见你之前国语" data-region="中国大陆" data-type="剧集" data-year="2024" data-tags="穿越时空 错过与重逢 配音员">
+    <a class="movie-cover" href="./movie-1664.html" aria-label="遇见你之前国语 在线观看">
+        <img src="./14.jpg" alt="遇见你之前国语" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1664.html" class="movie-title">遇见你之前国语</a>
+        <p class="movie-line">一个国语配音员每次给译制片配音时，都会穿越到电影的世界里，遇见同一位神秘女子。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>爱情、奇幻、都市</span>
+        </div>
+        <div class="tag-row"><span>穿越时空</span><span>错过与重逢</span><span>配音员</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="我的弟子都超神" data-region="中国大陆" data-type="剧集" data-year="2026" data-tags="废柴师父 天才徒弟 反套路 搞笑">
+    <a class="movie-cover" href="./movie-1670.html" aria-label="我的弟子都超神 在线观看">
+        <img src="./20.jpg" alt="我的弟子都超神" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1670.html" class="movie-title">我的弟子都超神</a>
+        <p class="movie-line">穿越成修仙界公认的废柴掌门，他只想躺平，却意外发现他随便收的五个徒弟全是隐藏的绝世天才。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>古装, 喜剧, 奇幻, 修仙</span>
+        </div>
+        <div class="tag-row"><span>废柴师父</span><span>天才徒弟</span><span>反套路</span><span>搞笑</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="床的另一边" data-region="法国" data-type="电影" data-year="2023" data-tags="婚姻危机 角色互换 中年觉醒 幽默讽刺">
+    <a class="movie-cover" href="./movie-1698.html" aria-label="床的另一边 在线观看">
+        <img src="./48.jpg" alt="床的另一边" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1698.html" class="movie-title">床的另一边</a>
+        <p class="movie-line">一对濒临离婚的夫妻决定互换身份生活一个月，却发现对方的“轻松日子”简直是个笑话。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 喜剧 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>婚姻危机</span><span>角色互换</span><span>中年觉醒</span><span>幽默讽刺</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="恐怖炼狱" data-region="日本" data-type="电影" data-year="2026" data-tags="密室恐怖 心理折磨 无限循环 罪与罚 感官剥夺">
+    <a class="movie-cover" href="./movie-1746.html" aria-label="恐怖炼狱 在线观看">
+        <img src="./96.jpg" alt="恐怖炼狱" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1746.html" class="movie-title">恐怖炼狱</a>
+        <p class="movie-line">一个心理医生醒来后发现自己被困在一座完美的自家公寓复制品中，而“镜子”里的自己，正在杀死他的家人。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>恐怖，心理惊悚</span>
+        </div>
+        <div class="tag-row"><span>密室恐怖</span><span>心理折磨</span><span>无限循环</span><span>罪与罚</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="日本海大海战：海行兮" data-region="日本" data-type="电影" data-year="2025" data-tags="日俄战争 海战 史诗 特批">
+    <a class="movie-cover" href="./movie-1769.html" aria-label="日本海大海战：海行兮 在线观看">
+        <img src="./119.jpg" alt="日本海大海战：海行兮" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1769.html" class="movie-title">日本海大海战：海行兮</a>
+        <p class="movie-line">1904年，日本联合舰队与沙俄波罗的海舰队在日韩海峡的对决，一个不懂任何战术的绘图兵，意外成了决定战局的关键。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>历史 / 战争 / 动作</span>
+        </div>
+        <div class="tag-row"><span>日俄战争</span><span>海战</span><span>史诗</span><span>特批</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="没问题男人" data-region="日本" data-type="剧集" data-year="2018" data-tags="治愈 社畜 心理 成长">
+    <a class="movie-cover" href="./movie-1797.html" aria-label="没问题男人 在线观看">
+        <img src="./147.jpg" alt="没问题男人" loading="lazy">
+        <span class="movie-badge">2018</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1797.html" class="movie-title">没问题男人</a>
+        <p class="movie-line">一名对任何人都有求必应的“社畜”突然失忆，只记得“没问题”三个字，从此开启了一段荒诞自救。</p>
+        <div class="movie-meta">
+            <span>剧集</span>
+            <span>剧情，生活</span>
+        </div>
+        <div class="tag-row"><span>治愈</span><span>社畜</span><span>心理</span><span>成长</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="非法战役" data-region="韩国" data-type="电影" data-year="2024" data-tags="黑帮 卧底 复仇 枪战 反转">
+    <a class="movie-cover" href="./movie-1820.html" aria-label="非法战役 在线观看">
+        <img src="./20.jpg" alt="非法战役" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1820.html" class="movie-title">非法战役</a>
+        <p class="movie-line">一名被开除的警察决定用黑吃黑的方式，摧毁横跨三国的人体器官贩卖网络。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作 / 犯罪</span>
+        </div>
+        <div class="tag-row"><span>黑帮</span><span>卧底</span><span>复仇</span><span>枪战</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="功夫熊猫第一季" data-region="美国" data-type="动画系列" data-year="2011" data-tags="师徒 神龙大侠 竹林 武学修行 伙伴冒险 轻松热血">
+    <a class="movie-cover" href="./movie-1821.html" aria-label="功夫熊猫第一季 在线观看">
+        <img src="./21.jpg" alt="功夫熊猫第一季" loading="lazy">
+        <span class="movie-badge">2011</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1821.html" class="movie-title">功夫熊猫第一季</a>
+        <p class="movie-line">当笨拙又热血的熊猫正式成为守护者，他必须在一季的闯关与修行里学会真正的功夫，也学会真正的担当。</p>
+        <div class="movie-meta">
+            <span>动画系列</span>
+            <span>喜剧, 冒险, 家庭, 动作</span>
+        </div>
+        <div class="tag-row"><span>师徒</span><span>神龙大侠</span><span>竹林</span><span>武学修行</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="铁甲冲锋队" data-region="德国" data-type="电影" data-year="2025" data-tags="二战 装甲部队 兄弟情">
+    <a class="movie-cover" href="./movie-1832.html" aria-label="铁甲冲锋队 在线观看">
+        <img src="./32.jpg" alt="铁甲冲锋队" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">德国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1832.html" class="movie-title">铁甲冲锋队</a>
+        <p class="movie-line">1945年柏林战役，一辆虎式坦克的残存车组与一辆临时缴获的苏制T-34联手突围。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>战争 / 动作</span>
+        </div>
+        <div class="tag-row"><span>二战</span><span>装甲部队</span><span>兄弟情</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="嗨！营业中第三季" data-region="中国台湾" data-type="综艺" data-year="2025" data-tags="明星开店 实境 治愈">
+    <a class="movie-cover" href="./movie-1843.html" aria-label="嗨！营业中第三季 在线观看">
+        <img src="./43.jpg" alt="嗨！营业中第三季" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1843.html" class="movie-title">嗨！营业中第三季</a>
+        <p class="movie-line">五位明星接手一座山间废弃民宿，要在雨季来临之前完成翻新并连续营业30天。</p>
+        <div class="movie-meta">
+            <span>综艺</span>
+            <span>真人秀, 经营</span>
+        </div>
+        <div class="tag-row"><span>明星开店</span><span>实境</span><span>治愈</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="窈窕老爹" data-region="中国大陆" data-type="电影" data-year="2022" data-tags="灵魂互换 父女 代沟 网红 爆笑">
+    <a class="movie-cover" href="./movie-1877.html" aria-label="窈窕老爹 在线观看">
+        <img src="./77.jpg" alt="窈窕老爹" loading="lazy">
+        <span class="movie-badge">2022</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1877.html" class="movie-title">窈窕老爹</a>
+        <p class="movie-line">古板老爸和做网红的女儿灵魂互换，老爸被迫替女儿直播，竟意外走红成“窈窕大叔”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>喜剧、奇幻、家庭</span>
+        </div>
+        <div class="tag-row"><span>灵魂互换</span><span>父女</span><span>代沟</span><span>网红</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="死亡潜艇" data-region="俄罗斯" data-type="电影" data-year="2028" data-tags="潜艇 深海 军事 封闭空间 幽灵船">
+    <a class="movie-cover" href="./movie-1885.html" aria-label="死亡潜艇 在线观看">
+        <img src="./85.jpg" alt="死亡潜艇" loading="lazy">
+        <span class="movie-badge">2028</span>
+        <span class="movie-region">俄罗斯</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1885.html" class="movie-title">死亡潜艇</a>
+        <p class="movie-line">俄罗斯海军一艘退役核潜艇被拖往拆船厂途中，艇上的声呐系统突然接收到来自一万米深海的SOS信号。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>惊悚 / 灾难 / 战争</span>
+        </div>
+        <div class="tag-row"><span>潜艇</span><span>深海</span><span>军事</span><span>封闭空间</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="森林的终点是海" data-region="中国台湾" data-type="电影" data-year="2026" data-tags="原住民 成长 告别 太平洋 祖孙">
+    <a class="movie-cover" href="./movie-1901.html" aria-label="森林的终点是海 在线观看">
+        <img src="./101.jpg" alt="森林的终点是海" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">中国台湾</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1901.html" class="movie-title">森林的终点是海</a>
+        <p class="movie-line">阿美族少年巴奈陪病重的外公走回太平洋边的祖灵之地，外公在途中说出了一个改变整个家族命运的秘密。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情 / 同性 / 家庭</span>
+        </div>
+        <div class="tag-row"><span>原住民</span><span>成长</span><span>告别</span><span>太平洋</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="欲虫" data-region="韩国" data-type="电影" data-year="2026" data-tags="生物朋克 欲望控制 寄生 黑色 赛博格">
+    <a class="movie-cover" href="./movie-1907.html" aria-label="欲虫 在线观看">
+        <img src="./107.jpg" alt="欲虫" loading="lazy">
+        <span class="movie-badge">2026</span>
+        <span class="movie-region">韩国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1907.html" class="movie-title">欲虫</a>
+        <p class="movie-line">一款能吸收人体“多余欲望”并将其转化为电能的基因改造虫，在首尔地下泛滥，而“无欲者”开始大规模自杀。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻 / 惊悚</span>
+        </div>
+        <div class="tag-row"><span>生物朋克</span><span>欲望控制</span><span>寄生</span><span>黑色</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="萨蒂亚" data-region="印度" data-type="电影" data-year="2025" data-tags="低种姓 抗争 黑色电影 复仇">
+    <a class="movie-cover" href="./movie-1920.html" aria-label="萨蒂亚 在线观看">
+        <img src="./120.jpg" alt="萨蒂亚" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">印度</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1920.html" class="movie-title">萨蒂亚</a>
+        <p class="movie-line">一名低种姓女警察被调回充满歧视的家乡，她必须在两周内破获高种姓少女失踪案，否则就将替上级顶罪。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>剧情, 悬疑, 犯罪</span>
+        </div>
+        <div class="tag-row"><span>低种姓</span><span>抗争</span><span>黑色电影</span><span>复仇</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="折翼母亲" data-region="中国大陆" data-type="电影" data-year="2023" data-tags="母爱 社会底层 催泪">
+    <a class="movie-cover" href="./movie-1922.html" aria-label="折翼母亲 在线观看">
+        <img src="./122.jpg" alt="折翼母亲" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1922.html" class="movie-title">折翼母亲</a>
+        <p class="movie-line">清洁工母亲为供女儿上大学卖血多年，女儿成名后却嫌弃她“丢人”，直到一份病历揭开真相。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>家庭伦理</span>
+        </div>
+        <div class="tag-row"><span>母爱</span><span>社会底层</span><span>催泪</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="保持黑暗" data-region="美国" data-type="电影" data-year="2023" data-tags="光敏感应怪物 地下生存 人性拷问 密闭空间">
+    <a class="movie-cover" href="./movie-1923.html" aria-label="保持黑暗 在线观看">
+        <img src="./123.jpg" alt="保持黑暗" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1923.html" class="movie-title">保持黑暗</a>
+        <p class="movie-line">一种靠光线追踪猎杀人类的怪物统治了地球，幸存者必须永远生活在黑暗中，但一个女孩发现——怪物其实怕的是“寂静”。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻, 惊悚</span>
+        </div>
+        <div class="tag-row"><span>光敏感应怪物</span><span>地下生存</span><span>人性拷问</span><span>密闭空间</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="墨玉太极" data-region="中国大陆" data-type="电影" data-year="2024" data-tags="太极 古物 阴阳 都市传说 宿命对决">
+    <a class="movie-cover" href="./movie-1937.html" aria-label="墨玉太极 在线观看">
+        <img src="./137.jpg" alt="墨玉太极" loading="lazy">
+        <span class="movie-badge">2024</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1937.html" class="movie-title">墨玉太极</a>
+        <p class="movie-line">一块失踪百年的墨玉太极图重现江湖，快递小哥意外卷入两派传人的生死暗战。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>动作奇幻</span>
+        </div>
+        <div class="tag-row"><span>太极</span><span>古物</span><span>阴阳</span><span>都市传说</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="魔法咪路咪路" data-region="日本" data-type="动漫" data-year="2025" data-tags="魔法少女 精灵 搞笑">
+    <a class="movie-cover" href="./movie-1945.html" aria-label="魔法咪路咪路 在线观看">
+        <img src="./145.jpg" alt="魔法咪路咪路" loading="lazy">
+        <span class="movie-badge">2025</span>
+        <span class="movie-region">日本</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1945.html" class="movie-title">魔法咪路咪路</a>
+        <p class="movie-line">废柴高中生意外召唤出比他还废柴的吃货精灵，拯救世界只能靠外卖了。</p>
+        <div class="movie-meta">
+            <span>动漫</span>
+            <span>奇幻, 喜剧, 校园</span>
+        </div>
+        <div class="tag-row"><span>魔法少女</span><span>精灵</span><span>搞笑</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="屠夫状元" data-region="中国大陆" data-type="电影" data-year="2023" data-tags="武侠 市井 黑色幽默 反转">
+    <a class="movie-cover" href="./movie-1967.html" aria-label="屠夫状元 在线观看">
+        <img src="./17.jpg" alt="屠夫状元" loading="lazy">
+        <span class="movie-badge">2023</span>
+        <span class="movie-region">中国大陆</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1967.html" class="movie-title">屠夫状元</a>
+        <p class="movie-line">猪肉铺老板深藏不露，昔日状元被迫操刀卖肉只为查案。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>古装, 喜剧, 动作</span>
+        </div>
+        <div class="tag-row"><span>武侠</span><span>市井</span><span>黑色幽默</span><span>反转</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="钢铁入侵者" data-region="美国" data-type="电影" data-year="2019" data-tags="机械军团 外星信号 城市防线 AI觉醒 团队反击">
+    <a class="movie-cover" href="./movie-1983.html" aria-label="钢铁入侵者 在线观看">
+        <img src="./33.jpg" alt="钢铁入侵者" loading="lazy">
+        <span class="movie-badge">2019</span>
+        <span class="movie-region">美国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1983.html" class="movie-title">钢铁入侵者</a>
+        <p class="movie-line">当沉睡在深海中的钢铁舰群突然苏醒，一群被临时召集的工程师必须在全球沦陷前找到它们的控制核心。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>科幻动作 / 灾难冒险</span>
+        </div>
+        <div class="tag-row"><span>机械军团</span><span>外星信号</span><span>城市防线</span><span>AI觉醒</span></div>
+    </div>
+</article>
+<article class="movie-card" data-title="欲望的诱惑" data-region="法国" data-type="电影" data-year="2011" data-tags="出轨 婚姻危机 法式浪漫 真相 欲望解剖">
+    <a class="movie-cover" href="./movie-1998.html" aria-label="欲望的诱惑 在线观看">
+        <img src="./48.jpg" alt="欲望的诱惑" loading="lazy">
+        <span class="movie-badge">2011</span>
+        <span class="movie-region">法国</span>
+        <span class="cover-play">▶</span>
+    </a>
+    <div class="movie-body">
+        <a href="./movie-1998.html" class="movie-title">欲望的诱惑</a>
+        <p class="movie-line">一对结婚十五年的夫妻各自有了外遇，但他们不知道的是——对方的情人其实是同一个人。</p>
+        <div class="movie-meta">
+            <span>电影</span>
+            <span>情色， 剧情， 心理</span>
+        </div>
+        <div class="tag-row"><span>出轨</span><span>婚姻危机</span><span>法式浪漫</span><span>真相</span></div>
+    </div>
+</article>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-grid">
+            <div>
+                <a class="footer-brand" href="./index.html"><span class="brand-mark">▶</span>电影大全</a>
+                <p>热门好看的电影大全，精选高清影片、分类片库、排行榜与影片详情。</p>
+            </div>
+            <div>
+                <h3>电影分类</h3>
+                <ul><li><a href="./featured-library.html">精选片库</a></li><li><a href="./new-release.html">新片速递</a></li><li><a href="./popular-picks.html">热门推荐</a></li><li><a href="./classic-hits.html">经典佳作</a></li><li><a href="./action-adventure.html">动作冒险</a></li><li><a href="./suspense-thriller.html">悬疑惊悚</a></li></ul>
+            </div>
+            <div>
+                <h3>快捷入口</h3>
+                <ul>
+                    <li><a href="./categories.html">分类总览</a></li>
+                    <li><a href="./rankings.html">排行榜</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                    <li><a href="./support.html">服务支持</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>关于</h3>
+                <ul>
+                    <li><a href="./about.html">关于电影大全</a></li>
+                    <li><a href="./copyright.html">版权声明</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 电影大全. 保留所有权利。</p>
+            <div>
+                <a href="./about.html">关于</a>
+                <a href="./copyright.html">版权</a>
+                <a href="./support.html">服务</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./assets/app.js" defer></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
